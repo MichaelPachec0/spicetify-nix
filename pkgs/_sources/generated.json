@@ -58,7 +58,7 @@
     },
     "charlieS1103Src": {
         "cargoLocks": null,
-        "date": "2023-06-24",
+        "date": "2023-08-18",
         "extract": null,
         "name": "charlieS1103Src",
         "passthru": null,
@@ -68,12 +68,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "e739f51ae142c07471538cc84544cd2e0600156a",
-            "sha256": "sha256-TL4gTTNj1DTq2cSl2KiPQQK3iqsPVk2zk9cFm9VzTj4=",
+            "rev": "c3e8cdbc5060a42be6791e2da7a797f409f9bb73",
+            "sha256": "sha256-qS0ufikbLVCSyXTNh30n+QdmR2fQbY3/tg9UYSN0RfA=",
             "type": "git",
             "url": "https://github.com/CharlieS1103/spicetify-extensions"
         },
-        "version": "e739f51ae142c07471538cc84544cd2e0600156a"
+        "version": "c3e8cdbc5060a42be6791e2da7a797f409f9bb73"
     },
     "comfySrc": {
         "cargoLocks": null,

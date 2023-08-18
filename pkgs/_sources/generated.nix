@@ -42,16 +42,16 @@
   };
   charlieS1103Src = {
     pname = "charlieS1103Src";
-    version = "e739f51ae142c07471538cc84544cd2e0600156a";
+    version = "c3e8cdbc5060a42be6791e2da7a797f409f9bb73";
     src = fetchgit {
       url = "https://github.com/CharlieS1103/spicetify-extensions";
-      rev = "e739f51ae142c07471538cc84544cd2e0600156a";
+      rev = "c3e8cdbc5060a42be6791e2da7a797f409f9bb73";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-TL4gTTNj1DTq2cSl2KiPQQK3iqsPVk2zk9cFm9VzTj4=";
+      sha256 = "sha256-qS0ufikbLVCSyXTNh30n+QdmR2fQbY3/tg9UYSN0RfA=";
     };
-    date = "2023-06-24";
+    date = "2023-08-18";
   };
   comfySrc = {
     pname = "comfySrc";
