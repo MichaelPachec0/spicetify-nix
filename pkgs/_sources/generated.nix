@@ -185,16 +185,16 @@
   };
   huhExtensionsSrc = {
     pname = "huhExtensionsSrc";
-    version = "a5b5abca63863c426e9ef74ce75a5451ae58beab";
+    version = "bba2733d42b33fce2d365f3a882d3cbb56ca829e";
     src = fetchgit {
       url = "https://github.com/huhridge/huh-spicetify-extensions";
-      rev = "a5b5abca63863c426e9ef74ce75a5451ae58beab";
+      rev = "bba2733d42b33fce2d365f3a882d3cbb56ca829e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-X4B3tEPYtncMdg60rwzStbUsFTQxBmUjIoL9wIi6ynw=";
+      sha256 = "sha256-RALEM/NH7Irk39yIPQRekYIffRnuAekvZ+8I2e0ZX7g=";
     };
-    date = "2023-07-04";
+    date = "2023-08-19";
   };
   lastfmSrc = {
     pname = "lastfmSrc";
