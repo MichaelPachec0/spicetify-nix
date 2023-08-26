@@ -87,12 +87,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "983142856e7fe269a5dd8ee02a2ad2aae55c51fd",
-            "sha256": "sha256-J+UB/7nieS7jE1tZwEbEKDN0axu1d5uW6b1XlTH/F7Y=",
+            "rev": "350a708ca8567539b5a5a3e19c98c989feb2cb06",
+            "sha256": "sha256-J5mZ8wgJECdoDNqvgVLnt+BOWURymbrDkzZ7QfnkK+E=",
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "983142856e7fe269a5dd8ee02a2ad2aae55c51fd"
+        "version": "350a708ca8567539b5a5a3e19c98c989feb2cb06"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
