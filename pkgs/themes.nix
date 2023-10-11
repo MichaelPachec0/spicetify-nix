@@ -287,7 +287,7 @@ in
       Comfy
       ;
   }
-  // mkCatppuccinTheme "catppuccin-mocha"
-  // mkCatppuccinTheme "catppuccin-frappe"
-  // mkCatppuccinTheme "catppuccin-latte"
-  // mkCatppuccinTheme "catppuccin-macchiato"
+  # // mkCatppuccinTheme "catppuccin-mocha"
+  # // mkCatppuccinTheme "catppuccin-frappe"
+  # // mkCatppuccinTheme "catppuccin-latte"
+  # // mkCatppuccinTheme "catppuccin-macchiato"
