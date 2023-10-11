@@ -13,7 +13,7 @@
     hidePodcasts
   ];
 
-  theme = spicePkgs.themes.catppuccin-mocha;
+  theme = spicePkgs.themes.Onepunch;
 
   config-xpui = spiceLib.xpuiBuilder {
     inherit extensions theme;
