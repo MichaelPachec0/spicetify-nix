@@ -531,6 +531,25 @@
         },
         "version": "b4598784bb48d4b84db2133f9d89aeba8de558f6"
     },
+    "spicetifyStatsSrc": {
+        "cargoLocks": null,
+        "date": "2023-06-12",
+        "extract": null,
+        "name": "spicetifyStatsSrc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "c0e8668a742edc47622cc6fb40cca0ff54bd0554",
+            "sha256": "sha256-w7gZ/F/AfgEd+KSOKivFjTnb3BNvZq1Md6qlV5fGhBI=",
+            "type": "git",
+            "url": "https://github.com/harbassan/spicetify-stats"
+        },
+        "version": "c0e8668a742edc47622cc6fb40cca0ff54bd0554"
+    },
     "spotifyCanvasSrc": {
         "cargoLocks": null,
         "date": "2023-05-11",
