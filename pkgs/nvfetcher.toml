@@ -136,3 +136,7 @@ src.git = "https://github.com/Pithaya/spicetify-apps-dist"
 src.branch = "dist/eternal-jukebox"
 fetch.git = "https://github.com/Pithaya/spicetify-apps-dist"
 
+[spicetifyStatsSrc]
+src.git = "https://github.com/harbassan/spicetify-stats"
+src.branch = "dist"
+fetch.git = "https://github.com/harbassan/spicetify-stats"

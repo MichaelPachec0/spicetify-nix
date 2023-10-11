@@ -23,6 +23,11 @@ with source; {
     src = eternalJukeboxSrc;
     appendName = false;
   };
+  spicetify-stats = {
+    name = "spicetify-stats";
+    src = spicetifyStatsSrc;
+    appendName = false;
+  };
   official = {
     new-releases = {
       src = "${officialSrc}/CustomApps";
