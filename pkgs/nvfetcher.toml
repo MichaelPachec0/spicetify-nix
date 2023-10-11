@@ -130,3 +130,9 @@ fetch.git = "https://github.com/theRealPadster/name-that-tune"
 src.git = "https://github.com/spicetify/spicetify-marketplace"
 src.branch = "dist"
 fetch.git = "https://github.com/spicetify/spicetify-marketplace"
+
+[eternalJukeboxSrc]
+src.git = "https://github.com/Pithaya/spicetify-apps-dist"
+src.branch = "dist/eternal-jukebox"
+fetch.git = "https://github.com/Pithaya/spicetify-apps-dist"
+

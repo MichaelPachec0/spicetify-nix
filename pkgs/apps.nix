@@ -18,7 +18,11 @@ with source; {
     src = nameThatTuneSrc;
     appendName = false;
   };
-
+  eternal-jukebox = {
+    name = "eternal-jukebox";
+    src = eternalJukeboxSrc;
+    appendName = false;
+  };
   official = {
     new-releases = {
       src = "${officialSrc}/CustomApps";
