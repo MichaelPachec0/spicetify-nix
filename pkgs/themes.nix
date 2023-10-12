@@ -5,23 +5,7 @@
 }:
 with source; let
   # THEME GENERATORS ----------------------------------------------------------
-  mkCatppuccinTheme = name: {
-    ${name} = {
-      inherit name;
-      src = catppuccinSrc;
-      appendName = true;
-      requiredExtensions = [
-        {
-          src = "${catppuccinSrc}/js";
-          filename = "${name}.js";
-        }
-      ];
-      injectCss = true;
-      replaceColors = true;
-      overwriteAssets = true;
-      sidebarConfig = false;
-    };
-  };
+  mkCatppuccinTheme = name: throw("Catppuccin has moved from multiple theme packages to one, with theme selection done in colorScheme. See: https://github.com/the-argus/spicetify-nix/issues/41");
 
   # THEMES --------------------------------------------------------------------
 
@@ -200,6 +184,16 @@ with source; let
       }
     ];
   };
+  Catppuccin = {
+      name = "Catppuccin";
+      src = "${catppuccinSrc}/catppuccin";
+      appendName = false;
+      injectCss = true;
+      injectThemeJS = true;
+      replaceColors = true;
+      overwriteAssets = true;
+      sidebarConfig = false;
+    };
 in
   {
     official = let
@@ -285,9 +279,11 @@ in
       Nord
       SpotifyCanvas
       Comfy
+      Catppuccin
       ;
   }
-  # // mkCatppuccinTheme "catppuccin-mocha"
-  # // mkCatppuccinTheme "catppuccin-frappe"
-  # // mkCatppuccinTheme "catppuccin-latte"
-  # // mkCatppuccinTheme "catppuccin-macchiato"
+  # NOTE: leave these for legacy purposes, when a user on a old version uses this package it will error out.
+  // mkCatppuccinTheme "catppuccin-mocha"
+  // mkCatppuccinTheme "catppuccin-frappe"
+  // mkCatppuccinTheme "catppuccin-latte"
+  // mkCatppuccinTheme "catppuccin-macchiato"
