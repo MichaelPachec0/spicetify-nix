@@ -39,13 +39,16 @@ in {
     else theme.src;
 
   # same thing but if its a string it looks it up in the default pkgs
-  getTheme = theme:
+  getTheme = theme: let
+    themeType = builtins.typeOf theme;
+  in (
     if builtins.typeOf theme == "string"
     then
       (
         if builtins.hasAttr theme spicePkgs.themes
         then
-          (lib.trivial.warn
+          (
+            lib.trivial.warn
             ''
               Using a string like so:
               programs.spicetify.theme = "${theme}";
@@ -55,7 +58,8 @@ in {
               in
                 spicePkgs.themes.${theme};
             ''
-            spicePkgs.themes.${theme})
+            spicePkgs.themes.${theme}
+          )
         else throw "Unknown theme ${theme}. Try using the lib.theme type instead of a string."
       )
     else if theme == null
@@ -63,7 +67,8 @@ in {
       lib.trivial.warn
       "spicetify: null theme passed to getTheme, assuming official.Default"
       spicePkgs.themes.official.Default
-    else theme;
+    else theme
+  );
 
   getExtension = ext:
     if builtins.typeOf ext == "string"

@@ -34,11 +34,21 @@
   # function which converts a flat nix set of options like injectCss into a
   # xpui structure (sub-sets for AdditionalOptions and Setting etc)
   mkXpuiOverrides = container: let
-    boolOverride = set: attrName: cfgName:
+    boolOverride = set: attrName: cfgName: let
+      debugF = t: "${t} TYPE: ${builtins.typeOf t}";
+    in (builtins.traceVerbose ''
+
+        SET: ${debugF set}
+
+        attrName: ${debugF attrName}
+        cfgName ${debugF cfgName}
+
+
+      ''
       optAttrs (builtins.hasAttr attrName set)
       (optAttrs (set.${attrName} != null)
         (optAttrs (builtins.typeOf set.${attrName} == "bool")
-          {${cfgName} = set.${attrName};}));
+          {${cfgName} = set.${attrName};})));
   in {
     AdditionalOptions = {
       extensions = extensionString;
