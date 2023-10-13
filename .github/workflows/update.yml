@@ -60,5 +60,5 @@ jobs:
       if: ${{ success() }}
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: "Bump Spicetify Packages"
+        commit_message: "chore: Bump Spicetify Packages"
         file_pattern: "pkgs/_sources/"
