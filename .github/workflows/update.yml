@@ -21,6 +21,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Check free-disk-space (before clean)
+      run: df -h 
+
+    - name: free-disk-cache
+      uses: jlumbroso/free-disk-space@main
+      with:
+          tool-cache: false
+
+    - name: Check free-disk-space (after clean)
+      run: df -h 
+
     - name: Install nix
       uses: cachix/install-nix-action@v21
       with:
@@ -36,8 +47,14 @@ jobs:
     - name: Show flake metadata
       run: nix flake metadata --impure
 
+    - name: Check free-disk-space (before nix build)
+      run: df -h 
+
     - name: Build nix packages
       run: nix build .#checks.x86_64-linux.default --impure -v
+
+    - name: Check free-disk-space (after nix build)
+      run: df -h 
 
     - name: Push updates
       if: ${{ success() }}
