@@ -5,7 +5,18 @@
 }:
 with source; let
   # THEME GENERATORS ----------------------------------------------------------
-  mkCatppuccinTheme = name: throw("Catppuccin has moved from multiple theme packages to one, with theme selection done in colorScheme. See: https://github.com/the-argus/spicetify-nix/issues/41");
+  mkCatppuccinTheme = name: {
+    ${name} = {
+      inherit name;
+      src = "${catppuccinSrc}/catppuccin";
+      appendName = false;
+      injectCss = true;
+      injectThemeJS = true;
+      replaceColors = true;
+      overwriteAssets = true;
+      sidebarConfig = false;
+    };
+  };
 
   # THEMES --------------------------------------------------------------------
 
@@ -185,15 +196,15 @@ with source; let
     ];
   };
   Catppuccin = {
-      name = "Catppuccin";
-      src = "${catppuccinSrc}/catppuccin";
-      appendName = false;
-      injectCss = true;
-      injectThemeJS = true;
-      replaceColors = true;
-      overwriteAssets = true;
-      sidebarConfig = false;
-    };
+    name = "Catppuccin";
+    src = "${catppuccinSrc}/catppuccin";
+    appendName = false;
+    injectCss = true;
+    injectThemeJS = true;
+    replaceColors = true;
+    overwriteAssets = true;
+    sidebarConfig = false;
+  };
 in
   {
     official = let

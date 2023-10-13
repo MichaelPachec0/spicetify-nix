@@ -129,7 +129,23 @@ in {
 
   config = let
     xpui = lib.attrsets.recursiveUpdate cfg.xpui spiceLib.types.defaultXpui;
-    actualTheme = spiceLib.getTheme cfg.theme;
+    actualTheme = let
+      inherit (cfg) theme;
+      blacklist = ["catppuccin-"];
+      compareFunc = bad: lib.strings.hasPrefix bad theme.name;
+      blacklistCheck = lib.lists.any (compareFunc) blacklist;
+      # TODO: decide if we should warn or throw here. If we throw, if that should be higher up the stack.
+      blacklistMsg = let scheme = lib.strings.removePrefix (lib.lists.findFirst (compareFunc) "" blacklist) theme.name; in lib.trivial.warn ''
+        Catppuccin has recently changed, moved from multiple theme packages into one, with accents defined
+        in colorScheme See: https://github.com/the-argus/spicetify-nix/issues/41 for more info
+        Change
+          theme = spicePkgs.themes.${theme.name};
+        to
+          theme = spicePkgs.themes.catppuccin;
+          colorScheme = ${scheme};
+        '' theme;
+    in
+      spiceLib.getTheme (if blacklistCheck then blacklistMsg else theme);
 
     # take the list of extensions and turn strings into actual extensions
     allExtensions = map spiceLib.getExtension (cfg.enabledExtensions
