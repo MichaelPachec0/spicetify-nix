@@ -17,7 +17,6 @@
       spotify_launch_flags = "";
       check_spicetify_upgrade = false;
       inject_css = false;
-      inject_theme_js = true;
       replace_colors = false;
       overwrite_assets = false;
     };
@@ -95,10 +94,6 @@
             inject_css = mkOption {
               type = types.bool;
               default = defaultXpui.Setting.inject_css;
-            };
-            inject_theme_js = mkOption {
-              type = types.bool;
-              default = defaultXpui.Setting.inject_theme_js;
             };
             replace_colors = mkOption {
               type = types.bool;
@@ -225,9 +220,6 @@
 
       # some config values that can be specified per-theme
       injectCss = mkOption {
-        type = types.nullOr types.bool;
-      };
-      injectThemeJS = mkOption {
         type = types.nullOr types.bool;
       };
       overwriteAssets = mkOption {

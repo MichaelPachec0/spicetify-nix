@@ -11,7 +11,6 @@ with source; let
       src = "${catppuccinSrc}/catppuccin";
       appendName = false;
       injectCss = true;
-      injectThemeJS = true;
       replaceColors = true;
       overwriteAssets = true;
       sidebarConfig = false;
@@ -200,7 +199,6 @@ with source; let
     src = "${catppuccinSrc}/catppuccin";
     appendName = false;
     injectCss = true;
-    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
