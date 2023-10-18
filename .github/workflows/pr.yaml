@@ -19,7 +19,7 @@ jobs:
       - name: clean
         uses: jlumbroso/free-disk-space@main
         with:
-          tool-cache: true
+          tool-cache: false 
 
       - name: nix install
         uses: cachix/install-nix-action@v21
@@ -32,8 +32,8 @@ jobs:
       - name: check if nvfetcher reload is needed
         id: nvfetcher_reload
         run: |
-          git-diff=$(git diff --name-only ${{ github.event.before}} ${{ github.event.after }})
-          if [[ "$git-diff" ==  *'pkgs/nvfetcher.toml'* ]]; then
+          git_diff=$(git diff --name-only ${{ github.event.before}} ${{ github.event.after }})
+          if [[ "$git_diff" ==  *'pkgs/nvfetcher.toml'* ]]; then
             echo "::set-output name=reload_needed::true"
           else
             echo "::set-output name=reload_needed:::false"
