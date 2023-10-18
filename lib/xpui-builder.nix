@@ -48,6 +48,7 @@
     Setting =
       {}
       // boolOverride container "injectCss" "inject_css"
+      // boolOverride container "injectThemeJS" "inject_theme_js"
       // boolOverride container "replaceColors" "replace_colors"
       // boolOverride container "overwriteAssets" "overwrite_assets"
       // boolOverride container "sidebarConfig" "sidebar_config"

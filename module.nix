@@ -90,6 +90,10 @@ in {
       type = lib.types.nullOr lib.types.bool;
       default = null;
     };
+    injectThemeJS = mkOption {
+      type = lib.types.nullOr lib.types.bool;
+      default = null;
+    };
     replaceColors = mkOption {
       type = lib.types.nullOr lib.types.bool;
       default =

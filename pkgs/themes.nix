@@ -11,6 +11,7 @@ with source; let
       src = "${catppuccinSrc}/catppuccin";
       appendName = false;
       injectCss = true;
+      injectThemeJS = true;
       replaceColors = true;
       overwriteAssets = true;
       sidebarConfig = false;
@@ -25,6 +26,7 @@ with source; let
     appendName = false;
     requiredExtensions = [brokenAdblock]; # might also require charliesAdblock
     injectCss = false;
+    injectThemeJS = true;
     replaceColors = false;
     overwriteAssets = false;
     sidebarConfig = false;
@@ -35,6 +37,7 @@ with source; let
     src = fluentSrc;
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     overwriteAssets = true;
     replaceColors = true;
     sidebarConfig = false;
@@ -55,6 +58,7 @@ with source; let
     src = defaultDynamicSrc;
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
@@ -79,6 +83,7 @@ with source; let
     src = retroBlurSrc;
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
@@ -90,6 +95,7 @@ with source; let
     src = omniSrc;
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     overwriteAssets = true;
     replaceColors = true;
     sidebarConfig = false;
@@ -107,6 +113,7 @@ with source; let
     src = bloomSrc;
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
@@ -127,6 +134,7 @@ with source; let
     src = orchisSrc;
     appendName = true;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
@@ -138,6 +146,7 @@ with source; let
     appendName = true;
     replaceColors = true;
     injectCss = false;
+    injectThemeJS = true;
     overwriteAssets = false;
     sidebarConfig = false;
   };
@@ -147,6 +156,7 @@ with source; let
     src = nordSrc;
     appendName = true;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
@@ -157,6 +167,7 @@ with source; let
     src = comfySrc;
     appendName = true;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
@@ -183,6 +194,7 @@ with source; let
     src = "${spotifyCanvasSrc}/Themes/canvas";
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     overwriteAssets = false;
     replaceColors = false;
     sidebarConfig = false;
@@ -199,6 +211,7 @@ with source; let
     src = "${catppuccinSrc}/catppuccin";
     appendName = false;
     injectCss = true;
+    injectThemeJS = true;
     replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
@@ -221,6 +234,7 @@ in
           src = officialThemes;
           appendName = true;
           injectCss = true;
+          injectThemeJS = true;
           replaceColors = true;
           overwriteAssets = false;
           sidebarConfig = false;
@@ -237,6 +251,7 @@ in
             "xpui.js_repl_8008" = ",$\{1}56";
           };
           injectCss = true;
+          injectThemeJS = true;
           replaceColors = true;
           overwriteAssets = true;
           appendName = true;
@@ -255,10 +270,11 @@ in
             "xpui.js_repl_8008" = ",$\{1}32";
           };
           injectCss = true;
+          injectThemeJS = true;
           replaceColors = true;
-          overwriteAssets = true;
+          overwriteAssets = false;
           appendName = true;
-          sidebarConfig = true;
+          sidebarConfig = false;
           # NOTE: There is additional css that can be enabled, see: https://github.com/spicetify/spicetify-themes/blob/master/text/README.md
           additionalCss = ''
             :Root {
