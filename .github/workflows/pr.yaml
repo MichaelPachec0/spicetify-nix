@@ -1,0 +1,48 @@
+name: "Build Checks"
+
+on: 
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      NIXPKGS_ALLOW_UNFREE: 1
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: clean
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+
+      - name: nix install
+        uses: cachix/install-nix-action@v21
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - name: check if nvfetcher reload is needed
+        id: nvfetcher_reload
+        run: |
+          git-diff=$(git diff --name-only ${{ github.event.before}} ${{ github.event.after }})
+          if [[ "$git-diff" ==  *'pkgs/nvfetcher.toml'* ]]; then
+            echo "::set-output name=reload_needed::true"
+          else
+            echo "::set-output name=reload_needed:::false"
+          fi
+
+      - name: nvfetcher
+        if: steps.nvfetcher_reload.outputs.reload_needed == 'true'
+        run: nix run github:berberman/nvfetcher -- -o pkgs/_sources -c pkgs/nvfetcher.toml
+
+      - name: build packages
+        run: nix build .#checks.x86_64-linux.default --impure -v
+
