@@ -60,5 +60,6 @@ jobs:
       if: ${{ success() }}
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
+        token: ${{ secrets.PAT }}
         commit_message: "chore: Bump Spicetify Packages"
         file_pattern: "pkgs/_sources/"
