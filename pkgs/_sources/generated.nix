@@ -55,16 +55,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "f2f4fbd7d8b8da2e9def9a00c04edd89fe59cf53";
+    version = "d2a53b9f6d79bc079d1f41bbefddc8a35bad8c47";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "f2f4fbd7d8b8da2e9def9a00c04edd89fe59cf53";
+      rev = "d2a53b9f6d79bc079d1f41bbefddc8a35bad8c47";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-O484vR/TyrzMfEULTce/K4mLR/DNTq10JZfZ89fl40w=";
+      sha256 = "sha256-D33BLTwiFGM/XLwNN2jeGzNdxV9UPqziMZ6zz93baPE=";
     };
-    date = "2023-10-17";
+    date = "2023-10-18";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -81,16 +81,16 @@
   };
   dakshExtensions = {
     pname = "dakshExtensions";
-    version = "8c0b1b40b00f6dc757b43bccd14d7653bdbabe2d";
+    version = "b79e4c9e1904979ee3a2998db1db4c947f6f1f14";
     src = fetchgit {
       url = "https://github.com/daksh2k/Spicetify-stuff";
-      rev = "8c0b1b40b00f6dc757b43bccd14d7653bdbabe2d";
+      rev = "b79e4c9e1904979ee3a2998db1db4c947f6f1f14";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-XmKwXX+mm2dXp4gb17rtoX80iKRd5kDVsoEkZrxrHVY=";
+      sha256 = "sha256-ArOEryKCw1hQenDpeP1wDmyrL60bjvnCQ45CpA0hcMo=";
     };
-    date = "2023-10-12";
+    date = "2023-10-18";
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
@@ -237,16 +237,16 @@
   };
   marketplaceSrc = {
     pname = "marketplaceSrc";
-    version = "2e7d815b81cc1d1f96f91a2c6e736c70d3a005ba";
+    version = "7b7bbca89bc764d27498827be4c2d85a4331b784";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-marketplace";
-      rev = "2e7d815b81cc1d1f96f91a2c6e736c70d3a005ba";
+      rev = "7b7bbca89bc764d27498827be4c2d85a4331b784";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-+v7w6e0Opig37AxrRc11KS7tnpC6bZydw0/OEznUFOc=";
+      sha256 = "sha256-wYvGoSlcyKgn8CXjEiBQg+nLg5T8xH3Cn8gbTorJt6M=";
     };
-    date = "2023-10-16";
+    date = "2023-10-18";
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
