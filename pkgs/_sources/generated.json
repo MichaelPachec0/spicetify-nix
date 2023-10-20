@@ -476,7 +476,7 @@
     },
     "playlistIconsSrc": {
         "cargoLocks": null,
-        "date": "2023-03-31",
+        "date": "2023-10-20",
         "extract": null,
         "name": "playlistIconsSrc",
         "passthru": null,
@@ -486,12 +486,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4e2fdda5079b441eca8d4d9f7479db82f6cc20b8",
-            "sha256": "sha256-ocDsR4+AAfycWcs1H3JV1h7WgIONlu3BQ148cnAMOPI=",
+            "rev": "acd0b95baab94a3223990ddfe9bdccb155302748",
+            "sha256": "sha256-Tc9bX3HlZfT5d98ED9WVuFIBlZf9qY89rcDlHivMBvA=",
             "type": "git",
             "url": "https://github.com/jeroentvb/spicetify-playlist-icons"
         },
-        "version": "4e2fdda5079b441eca8d4d9f7479db82f6cc20b8"
+        "version": "acd0b95baab94a3223990ddfe9bdccb155302748"
     },
     "powerBarSrc": {
         "cargoLocks": null,

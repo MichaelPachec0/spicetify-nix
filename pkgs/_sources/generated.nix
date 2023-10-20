@@ -328,16 +328,16 @@
   };
   playlistIconsSrc = {
     pname = "playlistIconsSrc";
-    version = "4e2fdda5079b441eca8d4d9f7479db82f6cc20b8";
+    version = "acd0b95baab94a3223990ddfe9bdccb155302748";
     src = fetchgit {
       url = "https://github.com/jeroentvb/spicetify-playlist-icons";
-      rev = "4e2fdda5079b441eca8d4d9f7479db82f6cc20b8";
+      rev = "acd0b95baab94a3223990ddfe9bdccb155302748";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-ocDsR4+AAfycWcs1H3JV1h7WgIONlu3BQ148cnAMOPI=";
+      sha256 = "sha256-Tc9bX3HlZfT5d98ED9WVuFIBlZf9qY89rcDlHivMBvA=";
     };
-    date = "2023-03-31";
+    date = "2023-10-20";
   };
   powerBarSrc = {
     pname = "powerBarSrc";
