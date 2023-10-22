@@ -39,7 +39,7 @@
     },
     "catppuccinSrc": {
         "cargoLocks": null,
-        "date": "2023-10-12",
+        "date": "2023-10-22",
         "extract": null,
         "name": "catppuccinSrc",
         "passthru": null,
@@ -49,12 +49,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "39ce773553e0dbc5ecb3dc91c59b03f905e95f88",
-            "sha256": "sha256-Gmj6vh1smkH+CW7eqoHsDxDMh5hk1wa8LbW+RMPsTL8=",
+            "rev": "09f2c16c4c6e951f42c82bc376fe168e56a6f325",
+            "sha256": "sha256-VSWsjqR36xC6uGWXUAgx/XZRW9f/TOHG5yVTJvRNRxg=",
             "type": "git",
             "url": "https://github.com/catppuccin/spicetify"
         },
-        "version": "39ce773553e0dbc5ecb3dc91c59b03f905e95f88"
+        "version": "09f2c16c4c6e951f42c82bc376fe168e56a6f325"
     },
     "charlieS1103Src": {
         "cargoLocks": null,
