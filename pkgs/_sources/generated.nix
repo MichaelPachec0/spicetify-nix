@@ -237,29 +237,29 @@
   };
   marketplaceSrc = {
     pname = "marketplaceSrc";
-    version = "db37f9dc659933d107948e4b613aae99de91b84b";
+    version = "8994e38db39ae82bc16b802bb1909877f0117ca2";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-marketplace";
-      rev = "db37f9dc659933d107948e4b613aae99de91b84b";
+      rev = "8994e38db39ae82bc16b802bb1909877f0117ca2";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-2EzS+maMyC4rSVPp9rD3HvkbV7f4hbzfSZrdmNydvGE=";
+      sha256 = "sha256-WTmbLi9QF/a189eQ0NAvirt2rjpMGibMKmtbaWZFrEY=";
     };
-    date = "2023-10-27";
+    date = "2023-11-01";
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "be92535e795e6242085018b2100f1319b4372ef1";
+    version = "38dca04e30e21be98a6d6c8d5b0b8b44e1a80e58";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "be92535e795e6242085018b2100f1319b4372ef1";
+      rev = "38dca04e30e21be98a6d6c8d5b0b8b44e1a80e58";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-DHD07hirkHd4oFl/MS/jWTeq4YDcCit9j//Vz3fDsPM=";
+      sha256 = "sha256-zBGCzX9dBO3UpUXWaeH3NWSnTg6PEZMm4pmOSTiuB1s=";
     };
-    date = "2023-10-01";
+    date = "2023-11-01";
   };
   nordSrc = {
     pname = "nordSrc";
@@ -276,16 +276,16 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "08b8b0aabce8f3877b6a90e3f0a7d61524ab707d";
+    version = "f0d3e9fa5382c3ec31774b78dd8d4261dc5e14d2";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "08b8b0aabce8f3877b6a90e3f0a7d61524ab707d";
+      rev = "f0d3e9fa5382c3ec31774b78dd8d4261dc5e14d2";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-llPxR4awKBBv0jiLr5MbE33D5KZx3LmBo5BDwZI8ZM0=";
+      sha256 = "sha256-xEikizbHK32vnldP0jBEOtNwG/R2KpkS9dX4eMabh2E=";
     };
-    date = "2023-10-29";
+    date = "2023-10-31";
   };
   officialThemes = {
     pname = "officialThemes";
