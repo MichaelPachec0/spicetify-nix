@@ -77,7 +77,7 @@
     },
     "comfySrc": {
         "cargoLocks": null,
-        "date": "2023-10-30",
+        "date": "2023-11-02",
         "extract": null,
         "name": "comfySrc",
         "passthru": null,
@@ -87,12 +87,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "39a68f2bdffe3babe74abdc4001bf1ba4a3a21c3",
-            "sha256": "sha256-DWqW2CdnxI+aJHOeMd2CfKFLod4506uMNZhEOG5MJxM=",
+            "rev": "223eb508bfe1f1d96821d06d594f5b46bc354a32",
+            "sha256": "sha256-pQt1pcnDyXqYgyWGJWmGmLiwKlNRDMh1chNjSOlLoG4=",
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "39a68f2bdffe3babe74abdc4001bf1ba4a3a21c3"
+        "version": "223eb508bfe1f1d96821d06d594f5b46bc354a32"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
@@ -248,7 +248,7 @@
     },
     "hidePodcastsSrc": {
         "cargoLocks": null,
-        "date": "2023-10-01",
+        "date": "2023-11-01",
         "extract": null,
         "name": "hidePodcastsSrc",
         "passthru": null,
@@ -258,12 +258,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "5d34920d6cebd2f3711e731b8186b0553e0da2a9",
-            "sha256": "sha256-n9J78h+6uRAmaLgS3W0EyPHmXiUeRLpeF0vdLNbxz4Y=",
+            "rev": "f7d67ee3bd82d416e1cb4ff9e4df2f7e19b2b484",
+            "sha256": "sha256-Su/kJ2/+3x6qrbLHQoMDlLKbvmGk0cUqVy7V6nA/F5E=",
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
-        "version": "5d34920d6cebd2f3711e731b8186b0553e0da2a9"
+        "version": "f7d67ee3bd82d416e1cb4ff9e4df2f7e19b2b484"
     },
     "historySrc": {
         "cargoLocks": null,
