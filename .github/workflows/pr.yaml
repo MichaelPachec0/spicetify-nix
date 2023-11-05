@@ -34,9 +34,9 @@ jobs:
         run: |
           git_diff=$(git diff --name-only ${{ github.event.before}} ${{ github.event.after }})
           if [[ "$git_diff" ==  *'pkgs/nvfetcher.toml'* ]]; then
-            echo "::set-output name=reload_needed::true"
+            echo "{reload_needed}={true}" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=reload_needed:::false"
+            echo "{reload_needed}={false}" >> $GITHUB_OUTPUT
           fi
 
       - name: nvfetcher
