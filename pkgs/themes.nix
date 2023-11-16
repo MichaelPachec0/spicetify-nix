@@ -278,9 +278,9 @@ in
         };
         Glaze = {
           name = "Glaze";
-          src = officialThemes;
+          src = charlieS1103GlazeSrc;
           sidebarConfig = true;
-          appendName = true;
+          appendName = false;
         };
         Turntable = {
           name = "Turntable";
