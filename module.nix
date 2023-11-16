@@ -127,9 +127,11 @@ in {
     xpui = lib.attrsets.recursiveUpdate cfg.xpui spiceLib.types.defaultXpui;
     actualTheme = let
       inherit (cfg) theme;
+      warnlist = ["Glaze"];
       blacklist = ["catppuccin-"];
       compareFunc = bad: lib.strings.hasPrefix bad theme.name;
       blacklistCheck = lib.lists.any (compareFunc) blacklist;
+      warnlistCheck = lib.lists.any compareFunc warnlist;
       # TODO: decide if we should warn or throw here. If we throw, if that should be higher up the stack.
       blacklistMsg = let scheme = lib.strings.removePrefix (lib.lists.findFirst (compareFunc) "" blacklist) theme.name; in lib.trivial.warn ''
         Catppuccin has recently changed, moved from multiple theme packages into one, with accents defined
@@ -140,8 +142,12 @@ in {
           theme = spicePkgs.themes.catppuccin;
           colorScheme = ${scheme};
         '' theme;
+        warnlistMsg = lib.trivial.warn ''
+        ${theme.name} has been deprecated, be forewarned that it might not work with current
+        versions of spotify.
+        '' theme;
     in
-      spiceLib.getTheme (if blacklistCheck then blacklistMsg else theme);
+      spiceLib.getTheme (if blacklistCheck then blacklistMsg else if warnlistCheck then warnlistMsg else theme);
 
     # take the list of extensions and turn strings into actual extensions
     allExtensions = map spiceLib.getExtension (cfg.enabledExtensions
