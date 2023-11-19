@@ -127,11 +127,8 @@ in {
     xpui = lib.attrsets.recursiveUpdate cfg.xpui spiceLib.types.defaultXpui;
     actualTheme = let
       inherit (cfg) theme;
-      warnlist = ["Glaze"];
 
       blacklist = ["catppuccin-"];
-      compareFunc = bad: lib.strings.hasPrefix bad theme.name;
-      warnlistCheck = lib.lists.any compareFunc warnlist;
       blacklistCheck = lib.lists.any (entry: lib.strings.hasPrefix entry theme.name) blacklist;
       blacklistMsg = let
         scheme = lib.strings.removePrefix (lib.lists.findFirst compareFunc "" blacklist) theme.name;
@@ -146,7 +143,23 @@ in {
             colorScheme = ${scheme};
         ''
         theme;
+
+      isOutdated = tag: strings.hasPrefix tag "outdated";
+      manifest = builtins.filter (entry: lists.any isOutdated entry.tags) (builtins.fromJSON (builtins.readFile ./manifest.json));
+      warnlist =
+        (builtins.map (entry: {
+          inherit (entry) name;
+          versions = builtins.filter (!isOutdated) entry.tags;
+        })
+        manifest) ++ [{name = "Glaze"; versions = ["1.2.6"];}];
+      warnlistCheck = lists.any (entry: entry == theme.name) warnlist;
       # TODO: decide if we should warn or throw here. If we throw, if that should be higher up the stack.
+      warnlistMsg =
+        lib.trivial.warn ''
+          ${theme.name} has been deprecated, be forewarned that it might not work with current
+          versions of spotify.
+        ''
+        theme;
     in
       spiceLib.getTheme (
         if blacklistCheck
