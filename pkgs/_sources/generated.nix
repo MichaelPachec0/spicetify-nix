@@ -432,16 +432,16 @@
   };
   startPageSrc = {
     pname = "startPageSrc";
-    version = "2b15d3b1249ce29520d225dfde8a8168ee549934";
+    version = "b32d463c1a1778bb5a898b673dcaad8fac5e7391";
     src = fetchgit {
       url = "https://github.com/Resxt/startup-page";
-      rev = "2b15d3b1249ce29520d225dfde8a8168ee549934";
+      rev = "b32d463c1a1778bb5a898b673dcaad8fac5e7391";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-ZpfOWnxLbK9TfUe0g0qFAk84hYmR/VABMskfa5tURE4=";
+      sha256 = "sha256-U3BnljDtQn2QT0AAlIazMktMNo9kUBhj4pB03l2Kt5E=";
     };
-    date = "2023-10-11";
+    date = "2023-11-19";
   };
   tetraxSrc = {
     pname = "tetraxSrc";

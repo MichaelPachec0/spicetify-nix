@@ -628,7 +628,7 @@
     },
     "startPageSrc": {
         "cargoLocks": null,
-        "date": "2023-10-11",
+        "date": "2023-11-19",
         "extract": null,
         "name": "startPageSrc",
         "passthru": null,
@@ -638,12 +638,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2b15d3b1249ce29520d225dfde8a8168ee549934",
-            "sha256": "sha256-ZpfOWnxLbK9TfUe0g0qFAk84hYmR/VABMskfa5tURE4=",
+            "rev": "b32d463c1a1778bb5a898b673dcaad8fac5e7391",
+            "sha256": "sha256-U3BnljDtQn2QT0AAlIazMktMNo9kUBhj4pB03l2Kt5E=",
             "type": "git",
             "url": "https://github.com/Resxt/startup-page"
         },
-        "version": "2b15d3b1249ce29520d225dfde8a8168ee549934"
+        "version": "b32d463c1a1778bb5a898b673dcaad8fac5e7391"
     },
     "tetraxSrc": {
         "cargoLocks": null,
