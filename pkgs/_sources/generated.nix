@@ -380,16 +380,16 @@
   };
   spicetifyStatsSrc = {
     pname = "spicetifyStatsSrc";
-    version = "0f21e8ffa7fd33fb1257cc6d5464ad0573f1ae03";
+    version = "651be04361db6f2e405f68cd03064be8dd59fc82";
     src = fetchgit {
       url = "https://github.com/harbassan/spicetify-stats";
-      rev = "0f21e8ffa7fd33fb1257cc6d5464ad0573f1ae03";
+      rev = "651be04361db6f2e405f68cd03064be8dd59fc82";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-49EXZ7vvL8CKrNpbzxsyPG7ZuxgpW3CwASEZMi77rdk=";
+      sha256 = "sha256-vJflU3JFbB2YMY373TOTg2op357GbIkSr1q1L3i3CsI=";
     };
-    date = "2023-11-17";
+    date = "2023-11-20";
   };
   spotifyCanvasSrc = {
     pname = "spotifyCanvasSrc";
