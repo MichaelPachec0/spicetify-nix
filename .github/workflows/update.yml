@@ -43,6 +43,42 @@ jobs:
           experimental-features = nix-command flakes
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
 
+    - name: Check for manifest change
+      id: manifest
+      run: |
+          URL="https://api.github.com/repos/spicetify/spicetify-themes"
+          START=$(date -d 'yesterday' --utc --iso-8601=seconds)
+          END=$(date --utc --iso-8601=seconds)
+          LIST=$(curl -s "${URL}/commits?since=${START}&until=${END}" | jq -r '.[] | "\(.sha)"')
+          HEAD=$(echo "$LIST" | head -n 1)
+          TAIL=$(echo "$LIST" | tail -n 1)
+          FILES=$(curl -s "${URL}/compare/${TAIL}...${HEAD}" | jq -r '.files[].filename')
+          if [[ "$FILES" == *'manifest.json'* ]]; then
+            echo "check=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "check=false" >> "$GITHUB_OUTPUT"
+          fi
+
+    - name: Download Manifest
+      uses: actions/checkout@v4
+      if: steps.manifest.outputs.check == 'true'
+      with:
+        repository: spicetify/spicetify-themes
+        path: themes
+
+    - name: Move Manifest
+      if: steps.manifest.outputs.check == 'true'
+      run: |
+          cp themes/manifest.json src/
+
+    - name: Update Manifest
+      uses: stefanzweifel/git-auto-commit-action@v4
+      if: steps.manifest.outputs.check == 'true'
+      with:
+        repository: src/
+        file_pattern: "manifest.json"
+        commit_message: "chore: Bump Manifest"
+
     - name: Run nvfetcher
       run: |
         nix run github:berberman/nvfetcher -- -o src/pkgs/_sources -c src/pkgs/nvfetcher.toml
