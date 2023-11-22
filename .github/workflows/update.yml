@@ -6,7 +6,7 @@ on:
   push:
     paths:
       - 'pkgs/nvfetcher.toml'
-  repository_dispatch:
+  # repository_dispatch:
   workflow_dispatch:
 
 jobs:
@@ -22,6 +22,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.PAT }}
+        path: src
 
     - name: Check free-disk-space (before clean)
       run: df -h 
@@ -44,16 +45,20 @@ jobs:
 
     - name: Run nvfetcher
       run: |
-        nix run github:berberman/nvfetcher -- -o pkgs/_sources -c pkgs/nvfetcher.toml
+        nix run github:berberman/nvfetcher -- -o src/pkgs/_sources -c src/pkgs/nvfetcher.toml
 
     - name: Show flake metadata
-      run: nix flake metadata --impure
+      run: |
+        cd src/
+        nix flake metadata --impure
 
     - name: Check free-disk-space (before nix build)
       run: df -h 
 
     - name: Build nix packages
-      run: nix build .#checks.x86_64-linux.default --impure -v
+      run: |
+        cd src/
+        nix build .#checks.x86_64-linux.default --impure -v
 
     - name: Check free-disk-space (after nix build)
       run: df -h 
@@ -62,5 +67,6 @@ jobs:
       if: ${{ success() }}
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
+        repository: src/
         commit_message: "chore: Bump Spicetify Packages"
         file_pattern: "pkgs/_sources/"
