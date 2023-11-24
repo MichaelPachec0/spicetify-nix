@@ -127,27 +127,47 @@ in {
     xpui = lib.attrsets.recursiveUpdate cfg.xpui spiceLib.types.defaultXpui;
     actualTheme = let
       inherit (cfg) theme;
-      warnlist = ["Glaze"];
+
       blacklist = ["catppuccin-"];
-      compareFunc = bad: lib.strings.hasPrefix bad theme.name;
-      blacklistCheck = lib.lists.any (compareFunc) blacklist;
-      warnlistCheck = lib.lists.any compareFunc warnlist;
+      blacklistCheck = lib.lists.any (entry: lib.strings.hasPrefix entry theme.name) blacklist;
+      blacklistMsg = let
+        scheme = lib.strings.removePrefix (lib.lists.findFirst compareFunc "" blacklist) theme.name;
+      in
+        lib.trivial.warn ''
+          Catppuccin has recently changed, moved from multiple theme packages into one, with accents defined
+          in colorScheme See: https://github.com/the-argus/spicetify-nix/issues/41 for more info
+          Change
+            theme = spicePkgs.themes.${theme.name};
+          to
+            theme = spicePkgs.themes.catppuccin;
+            colorScheme = ${scheme};
+        ''
+        theme;
+
+      isOutdated = tag: strings.hasPrefix tag "outdated";
+      manifest = builtins.filter (entry: lists.any isOutdated entry.tags) (builtins.fromJSON (builtins.readFile ./manifest.json));
+      warnlist =
+        (builtins.map (entry: {
+          inherit (entry) name;
+          versions = builtins.filter (!isOutdated) entry.tags;
+        })
+        manifest) ++ [{name = "Glaze"; versions = ["1.2.6"];}];
+      warnlistCheck = lists.any (entry: entry == theme.name) warnlist;
       # TODO: decide if we should warn or throw here. If we throw, if that should be higher up the stack.
-      blacklistMsg = let scheme = lib.strings.removePrefix (lib.lists.findFirst (compareFunc) "" blacklist) theme.name; in lib.trivial.warn ''
-        Catppuccin has recently changed, moved from multiple theme packages into one, with accents defined
-        in colorScheme See: https://github.com/the-argus/spicetify-nix/issues/41 for more info
-        Change
-          theme = spicePkgs.themes.${theme.name};
-        to
-          theme = spicePkgs.themes.catppuccin;
-          colorScheme = ${scheme};
-        '' theme;
-        warnlistMsg = lib.trivial.warn ''
-        ${theme.name} has been deprecated, be forewarned that it might not work with current
-        versions of spotify.
-        '' theme;
+      warnlistMsg =
+        lib.trivial.warn ''
+          ${theme.name} has been deprecated, be forewarned that it might not work with current
+          versions of spotify.
+        ''
+        theme;
     in
-      spiceLib.getTheme (if blacklistCheck then blacklistMsg else if warnlistCheck then warnlistMsg else theme);
+      spiceLib.getTheme (
+        if blacklistCheck
+        then blacklistMsg
+        else if warnlistCheck
+        then warnlistMsg
+        else theme
+      );
 
     # take the list of extensions and turn strings into actual extensions
     allExtensions = map spiceLib.getExtension (cfg.enabledExtensions
