@@ -69,7 +69,7 @@ jobs:
     - name: Move Manifest
       if: steps.manifest.outputs.check == 'true'
       run: |
-          cp themes/manifest.json src/
+          cp -f themes/manifest.json src/
 
     - name: Update Manifest
       uses: stefanzweifel/git-auto-commit-action@v4
