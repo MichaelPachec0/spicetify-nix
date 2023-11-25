@@ -50,13 +50,19 @@ jobs:
           START=$(date -d 'yesterday' --utc --iso-8601=seconds)
           END=$(date --utc --iso-8601=seconds)
           LIST=$(curl -s "${URL}/commits?since=${START}&until=${END}" | jq -r '.[] | "\(.sha)"')
-          HEAD=$(echo "$LIST" | head -n 1)
-          TAIL=$(echo "$LIST" | tail -n 1)
-          FILES=$(curl -s "${URL}/compare/${TAIL}...${HEAD}" | jq -r '.files[].filename')
-          if [[ "$FILES" == *'manifest.json'* ]]; then
-            echo "check=true" >> "$GITHUB_OUTPUT"
-          else
+
+          # NOTE: make sure to exit if its a empty list
+          if [ -z "$LIST" ]; then 
             echo "check=false" >> "$GITHUB_OUTPUT"
+          else
+            HEAD=$(echo "$LIST" | head -n 1)
+            TAIL=$(echo "$LIST" | tail -n 1)
+            FILES=$(curl -s "${URL}/compare/${TAIL}...${HEAD}" | jq -r '.files[].filename')
+            if [[ "$FILES" == *'manifest.json'* ]]; then
+              echo "check=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "check=false" >> "$GITHUB_OUTPUT"
+            fi
           fi
 
     - name: Download Manifest
