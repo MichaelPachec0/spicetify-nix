@@ -248,7 +248,7 @@
     },
     "groupSessionSrc": {
         "cargoLocks": null,
-        "date": "2022-09-15",
+        "date": "2023-11-29",
         "extract": null,
         "name": "groupSessionSrc",
         "passthru": null,
@@ -258,12 +258,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a9fa45da69495137b2f7272f61ff8d1a457aef5b",
-            "sha256": "sha256-YTbnNLzPc0iMJZfH3QwSEX/gpAqIlchmbsULjM8musA=",
+            "rev": "bc93e673d7efaa0294eca69321de33dc1dc8bdc3",
+            "sha256": "sha256-GY0V6UwKhbKONAE+vZgV6xx3BzUUvfjjeyH1yYzVl2g=",
             "type": "git",
             "url": "https://github.com/timll/spotify-group-session"
         },
-        "version": "a9fa45da69495137b2f7272f61ff8d1a457aef5b"
+        "version": "bc93e673d7efaa0294eca69321de33dc1dc8bdc3"
     },
     "hidePodcastsSrc": {
         "cargoLocks": null,
@@ -438,7 +438,7 @@
     },
     "officialThemes": {
         "cargoLocks": null,
-        "date": "2023-11-24",
+        "date": "2023-11-30",
         "extract": null,
         "name": "officialThemes",
         "passthru": null,
@@ -448,12 +448,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9ba01f9861d1f52e049ad1ac01883f1609ffd45b",
-            "sha256": "sha256-WrQ5ejqOf73TR6fbuApt6EwKsq7JkX3CDvFdbBT7UWA=",
+            "rev": "8b6a8010359914b3c8fdaf810705c754ce69c2a4",
+            "sha256": "sha256-iMRutzOrZHaKfHOr2qOM/TkTYHysFBlmunVhU65kf2k=",
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-themes"
         },
-        "version": "9ba01f9861d1f52e049ad1ac01883f1609ffd45b"
+        "version": "8b6a8010359914b3c8fdaf810705c754ce69c2a4"
     },
     "omniSrc": {
         "cargoLocks": null,

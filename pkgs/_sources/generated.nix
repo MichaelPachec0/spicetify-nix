@@ -172,16 +172,16 @@
   };
   groupSessionSrc = {
     pname = "groupSessionSrc";
-    version = "a9fa45da69495137b2f7272f61ff8d1a457aef5b";
+    version = "bc93e673d7efaa0294eca69321de33dc1dc8bdc3";
     src = fetchgit {
       url = "https://github.com/timll/spotify-group-session";
-      rev = "a9fa45da69495137b2f7272f61ff8d1a457aef5b";
+      rev = "bc93e673d7efaa0294eca69321de33dc1dc8bdc3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-YTbnNLzPc0iMJZfH3QwSEX/gpAqIlchmbsULjM8musA=";
+      sha256 = "sha256-GY0V6UwKhbKONAE+vZgV6xx3BzUUvfjjeyH1yYzVl2g=";
     };
-    date = "2022-09-15";
+    date = "2023-11-29";
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
@@ -302,16 +302,16 @@
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "9ba01f9861d1f52e049ad1ac01883f1609ffd45b";
+    version = "8b6a8010359914b3c8fdaf810705c754ce69c2a4";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "9ba01f9861d1f52e049ad1ac01883f1609ffd45b";
+      rev = "8b6a8010359914b3c8fdaf810705c754ce69c2a4";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-WrQ5ejqOf73TR6fbuApt6EwKsq7JkX3CDvFdbBT7UWA=";
+      sha256 = "sha256-iMRutzOrZHaKfHOr2qOM/TkTYHysFBlmunVhU65kf2k=";
     };
-    date = "2023-11-24";
+    date = "2023-11-30";
   };
   omniSrc = {
     pname = "omniSrc";
