@@ -263,16 +263,16 @@
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "84a516ca5805be4f267f7cc05130ec409f758693";
+    version = "0accd135edbc0346fa263c539c823cab8ba12a6a";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "84a516ca5805be4f267f7cc05130ec409f758693";
+      rev = "0accd135edbc0346fa263c539c823cab8ba12a6a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-AVmFJGNY7vvDwrV0Qj1BbYVUzN2kSXiC6tlt1Mgz2y0=";
+      sha256 = "sha256-7tpUiAhg9vy0W8bbgsQrAnbBY4uHFKgRjJ94Ed6u3bc=";
     };
-    date = "2023-11-22";
+    date = "2023-12-02";
   };
   nordSrc = {
     pname = "nordSrc";
@@ -393,16 +393,16 @@
   };
   spotifyCanvasSrc = {
     pname = "spotifyCanvasSrc";
-    version = "ee7a441503e9fb763be81d868d9e1dd8d748a924";
+    version = "2c441ef1e7b96096577251ba4c17a58a32516a87";
     src = fetchgit {
       url = "https://github.com/itsmeow/Spicetify-Canvas";
-      rev = "ee7a441503e9fb763be81d868d9e1dd8d748a924";
+      rev = "2c441ef1e7b96096577251ba4c17a58a32516a87";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-OKovKLBwsiNWo3rux5waDefI5qFu2pou21WmRsN4h4Y=";
+      sha256 = "sha256-kJPis/iK5XzorTpRLR7WDja1xC5mq4eby4Mz8GvdIlc=";
     };
-    date = "2023-05-11";
+    date = "2023-12-02";
   };
   spotifyNoPremiumSrc = {
     pname = "spotifyNoPremiumSrc";
