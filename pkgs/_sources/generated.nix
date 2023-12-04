@@ -16,16 +16,16 @@
   };
   bloomSrc = {
     pname = "bloomSrc";
-    version = "078ab30f38037aff9f72aab54e390474e2b79bd6";
+    version = "4dcd24d20aae8ce6c43ca19c3eeeb17b9f4de79d";
     src = fetchgit {
       url = "https://github.com/nimsandu/spicetify-bloom";
-      rev = "078ab30f38037aff9f72aab54e390474e2b79bd6";
+      rev = "4dcd24d20aae8ce6c43ca19c3eeeb17b9f4de79d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-st8Dcrz97PGQ23meNEObHMZj6KPIjDbMruM0aqgHyho=";
+      sha256 = "sha256-Pt3i+NUbl3ddNUXWYTvEPlROqN0UZzJsP0+d/sVKvAE=";
     };
-    date = "2023-11-23";
+    date = "2023-12-04";
   };
   catppuccinSrc = {
     pname = "catppuccinSrc";
