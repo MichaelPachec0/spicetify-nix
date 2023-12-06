@@ -96,7 +96,7 @@
     },
     "comfySrc": {
         "cargoLocks": null,
-        "date": "2023-11-26",
+        "date": "2023-12-06",
         "extract": null,
         "name": "comfySrc",
         "passthru": null,
@@ -106,12 +106,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a5fa45926ad45dcd1dbfd9267fb32ea82f71e43a",
-            "sha256": "sha256-7lBhN8Rmju/0HjJcSWLD+LgAV54aGxlX/vXdkgnWVpE=",
+            "rev": "e1c01bca82c4a089082ca597dc2d9e902d23d494",
+            "sha256": "sha256-0vism3J/bHgNg3GjP/KSND7hRi141wBAYxtBzK6FEnU=",
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "a5fa45926ad45dcd1dbfd9267fb32ea82f71e43a"
+        "version": "e1c01bca82c4a089082ca597dc2d9e902d23d494"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
@@ -305,7 +305,7 @@
     },
     "huhExtensionsSrc": {
         "cargoLocks": null,
-        "date": "2023-08-19",
+        "date": "2023-12-06",
         "extract": null,
         "name": "huhExtensionsSrc",
         "passthru": null,
@@ -315,12 +315,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bba2733d42b33fce2d365f3a882d3cbb56ca829e",
-            "sha256": "sha256-RALEM/NH7Irk39yIPQRekYIffRnuAekvZ+8I2e0ZX7g=",
+            "rev": "f032dde7cce9d441795d9e2f728531684e97e3fa",
+            "sha256": "sha256-fttZYeWqGNy4A9FqHe8znaWGePI2bBE92Ir4bp3i1wY=",
             "type": "git",
             "url": "https://github.com/huhridge/huh-spicetify-extensions"
         },
-        "version": "bba2733d42b33fce2d365f3a882d3cbb56ca829e"
+        "version": "f032dde7cce9d441795d9e2f728531684e97e3fa"
     },
     "lastfmSrc": {
         "cargoLocks": null,
@@ -628,7 +628,7 @@
     },
     "startPageSrc": {
         "cargoLocks": null,
-        "date": "2023-11-22",
+        "date": "2023-12-05",
         "extract": null,
         "name": "startPageSrc",
         "passthru": null,
@@ -638,12 +638,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3f7186dc66e2b3122fdbbc908571579ee1a21391",
-            "sha256": "sha256-QIyKVMNohja5ynxq0qb1ZKk5ScUXfWhqrK9F6/27vcY=",
+            "rev": "8eb7e047696500a80c178cf5f2b9128caa88fdbb",
+            "sha256": "sha256-Luk1UVTSCq0nhcEdcSEXtXw4E0GptirLDH4LJX4hu9s=",
             "type": "git",
             "url": "https://github.com/Resxt/startup-page"
         },
-        "version": "3f7186dc66e2b3122fdbbc908571579ee1a21391"
+        "version": "8eb7e047696500a80c178cf5f2b9128caa88fdbb"
     },
     "tetraxSrc": {
         "cargoLocks": null,

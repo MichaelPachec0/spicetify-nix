@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "a5fa45926ad45dcd1dbfd9267fb32ea82f71e43a";
+    version = "e1c01bca82c4a089082ca597dc2d9e902d23d494";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "a5fa45926ad45dcd1dbfd9267fb32ea82f71e43a";
+      rev = "e1c01bca82c4a089082ca597dc2d9e902d23d494";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-7lBhN8Rmju/0HjJcSWLD+LgAV54aGxlX/vXdkgnWVpE=";
+      sha256 = "sha256-0vism3J/bHgNg3GjP/KSND7hRi141wBAYxtBzK6FEnU=";
     };
-    date = "2023-11-26";
+    date = "2023-12-06";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -211,16 +211,16 @@
   };
   huhExtensionsSrc = {
     pname = "huhExtensionsSrc";
-    version = "bba2733d42b33fce2d365f3a882d3cbb56ca829e";
+    version = "f032dde7cce9d441795d9e2f728531684e97e3fa";
     src = fetchgit {
       url = "https://github.com/huhridge/huh-spicetify-extensions";
-      rev = "bba2733d42b33fce2d365f3a882d3cbb56ca829e";
+      rev = "f032dde7cce9d441795d9e2f728531684e97e3fa";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-RALEM/NH7Irk39yIPQRekYIffRnuAekvZ+8I2e0ZX7g=";
+      sha256 = "sha256-fttZYeWqGNy4A9FqHe8znaWGePI2bBE92Ir4bp3i1wY=";
     };
-    date = "2023-08-19";
+    date = "2023-12-06";
   };
   lastfmSrc = {
     pname = "lastfmSrc";
@@ -432,16 +432,16 @@
   };
   startPageSrc = {
     pname = "startPageSrc";
-    version = "3f7186dc66e2b3122fdbbc908571579ee1a21391";
+    version = "8eb7e047696500a80c178cf5f2b9128caa88fdbb";
     src = fetchgit {
       url = "https://github.com/Resxt/startup-page";
-      rev = "3f7186dc66e2b3122fdbbc908571579ee1a21391";
+      rev = "8eb7e047696500a80c178cf5f2b9128caa88fdbb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-QIyKVMNohja5ynxq0qb1ZKk5ScUXfWhqrK9F6/27vcY=";
+      sha256 = "sha256-Luk1UVTSCq0nhcEdcSEXtXw4E0GptirLDH4LJX4hu9s=";
     };
-    date = "2023-11-22";
+    date = "2023-12-05";
   };
   tetraxSrc = {
     pname = "tetraxSrc";
