@@ -362,7 +362,7 @@
     },
     "marketplaceSrc": {
         "cargoLocks": null,
-        "date": "2023-12-02",
+        "date": "2023-12-07",
         "extract": null,
         "name": "marketplaceSrc",
         "passthru": null,
@@ -372,12 +372,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a19d2a6e1f532b4891c4a5d9e71be8f7f3bd1cdb",
-            "sha256": "sha256-BKluPhTP7siUoXO5eD2SqnTwPB6R2I56nLdbo7e6ykY=",
+            "rev": "aa5a63e87324de1cbadff5c9d1133c095a4400dc",
+            "sha256": "sha256-/2wtYiOvc/w+A2SkAT+bsUD6fkLmoF8OljtS4C45WgU=",
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-marketplace"
         },
-        "version": "a19d2a6e1f532b4891c4a5d9e71be8f7f3bd1cdb"
+        "version": "aa5a63e87324de1cbadff5c9d1133c095a4400dc"
     },
     "nameThatTuneSrc": {
         "cargoLocks": null,
