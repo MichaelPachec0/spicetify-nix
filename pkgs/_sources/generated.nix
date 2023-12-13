@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "aae93e5afeacccbd5d43fa2cb408e819bcf5c2e1";
+    version = "cb265c078693b1ba0756f5e611d22b03e9e3aaf6";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "aae93e5afeacccbd5d43fa2cb408e819bcf5c2e1";
+      rev = "cb265c078693b1ba0756f5e611d22b03e9e3aaf6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-jOvpieA3vkG+tQOIHxCN84UjX/Mm4V9sCqvtROKBWaY=";
+      sha256 = "sha256-baaROgRXwaUyE6v7LYQEBw5pj3MpGREESJ636nPyrKo=";
     };
-    date = "2023-12-10";
+    date = "2023-12-13";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -289,16 +289,16 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "3eefb97a3868ea0b104807364f7e270ee6f13b35";
+    version = "ed18b6e476aaad207392d7b3199933b938f66a56";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "3eefb97a3868ea0b104807364f7e270ee6f13b35";
+      rev = "ed18b6e476aaad207392d7b3199933b938f66a56";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-prY16zCq9ihAU5FtGIAilYdhnWT5BOWGKqP3oGe5zHY=";
+      sha256 = "sha256-j9NM6mIX4vbOXKwSHWTO0YmuaIvIUTZTtlNbN2wIxTk=";
     };
-    date = "2023-12-12";
+    date = "2023-12-13";
   };
   officialThemes = {
     pname = "officialThemes";
