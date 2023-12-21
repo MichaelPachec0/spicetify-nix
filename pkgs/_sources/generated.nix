@@ -16,16 +16,16 @@
   };
   bloomSrc = {
     pname = "bloomSrc";
-    version = "91b1439abf5a09a0d4560bd4687135c145b573ad";
+    version = "09deb51eda96f3e5f0532f8da4487464ae7a045c";
     src = fetchgit {
       url = "https://github.com/nimsandu/spicetify-bloom";
-      rev = "91b1439abf5a09a0d4560bd4687135c145b573ad";
+      rev = "09deb51eda96f3e5f0532f8da4487464ae7a045c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-RfmslZeU/nhrG3J/XXK86mX2tvplVzhRA/5ajPyEnU8=";
+      sha256 = "sha256-7tksgfsWaIRmjNDrH518hV/2di7rVhJi1/CpwuvBWLA=";
     };
-    date = "2023-12-17";
+    date = "2023-12-21";
   };
   catppuccinSrc = {
     pname = "catppuccinSrc";
@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "93dd8e2c14dab1440b2c68aab2e9e7434bdcea0c";
+    version = "2511226d2b3e563c1392016099cd77196e81f23e";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "93dd8e2c14dab1440b2c68aab2e9e7434bdcea0c";
+      rev = "2511226d2b3e563c1392016099cd77196e81f23e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-x92fMxiV+Tnkt46ibZVRqhHnvmDemHu/f7YTmaHzwWU=";
+      sha256 = "sha256-dxkkn5ACYJ/TVwxHSAV//vTPOpF53J9ZIMlTljinBrA=";
     };
-    date = "2023-12-18";
+    date = "2023-12-20";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -133,16 +133,16 @@
   };
   eternalJukeboxSrc = {
     pname = "eternalJukeboxSrc";
-    version = "8a18d532252bea21fa302f230a61b200817aef04";
+    version = "721934d9b23feda70d2293f48d721903ea2c4b15";
     src = fetchgit {
       url = "https://github.com/Pithaya/spicetify-apps-dist";
-      rev = "8a18d532252bea21fa302f230a61b200817aef04";
+      rev = "721934d9b23feda70d2293f48d721903ea2c4b15";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-M68vSbBOHcxK33B1j7jt10BN+VsLbc5I56hLFrqr85U=";
+      sha256 = "sha256-kX/M66pgE34N5HikMKDPKB3uVk6RXa51VtHCP8EII2w=";
     };
-    date = "2023-11-27";
+    date = "2023-12-20";
   };
   fluentSrc = {
     pname = "fluentSrc";
