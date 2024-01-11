@@ -39,10 +39,10 @@ with source; let
     src = historySrc;
     filename = "historyShortcut.js";
   };
-  genre = {
-    src = genreSrc;
-    filename = "genre.js";
-  };
+  # genre = {
+  #   src = genreSrc;
+  #   filename = "genre.js";
+  # };
   lastfm = {
     src = "${lastfmSrc}/src";
     filename = "lastfm.js";
@@ -238,7 +238,7 @@ in
   // appendJS autoVolume
   // appendJS history
   // appendJS lastfm
-  // appendJS genre
+  # // appendJS genre
   // appendJS hidePodcasts
   // appendJS charliesAdblock # adblock.js
   // appendJS savePlaylists
