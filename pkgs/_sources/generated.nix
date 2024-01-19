@@ -16,29 +16,29 @@
   };
   bloomSrc = {
     pname = "bloomSrc";
-    version = "2927c3d96fb177167ea70d76cb0f1e9180c8dd06";
+    version = "57886038816eaa6bc16860ad56eac9b4833622eb";
     src = fetchgit {
       url = "https://github.com/nimsandu/spicetify-bloom";
-      rev = "2927c3d96fb177167ea70d76cb0f1e9180c8dd06";
+      rev = "57886038816eaa6bc16860ad56eac9b4833622eb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-6Z1Rjs5A1Dxyluxv7bnj82AT3WexhI/res6sC25dYME=";
+      sha256 = "sha256-e2jNKf0r49KbybPIR+6vyCEwqk2G0ycAEuqZO5gZQoI=";
     };
-    date = "2024-01-08";
+    date = "2024-01-19";
   };
   catppuccinSrc = {
     pname = "catppuccinSrc";
-    version = "1f93de5798115fa16d086c81d40b8163da54d831";
+    version = "ba3986981c717856d9ec68412c95ae282b505538";
     src = fetchgit {
       url = "https://github.com/catppuccin/spicetify";
-      rev = "1f93de5798115fa16d086c81d40b8163da54d831";
+      rev = "ba3986981c717856d9ec68412c95ae282b505538";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-5lGXI/HU/AUi0C2mWmJBao/Ii3CuBlTTyKyO7Ir4PSM=";
+      sha256 = "sha256-0k0rSxjyzU5cjn2mTNqGHwo30Ar5rF0a+G/GG5xaL8U=";
     };
-    date = "2024-01-17";
+    date = "2024-01-19";
   };
   charlieS1103GlazeSrc = {
     pname = "charlieS1103GlazeSrc";
@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "7d684d5055bb57bc6ed5e7fdc4cef7b7c53e496a";
+    version = "f79d6f5d1f7dfec6dfa8a8d1bdacb4c6cf8d8b71";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "7d684d5055bb57bc6ed5e7fdc4cef7b7c53e496a";
+      rev = "f79d6f5d1f7dfec6dfa8a8d1bdacb4c6cf8d8b71";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-f5WnSkCeNbG99pSbWHd6REm0zI5BHDEZKyiEoNGxfiU=";
+      sha256 = "sha256-K7/igvNhIuBYajiaVcRPxjWqOh5cYcaTfS2VvUjD3Tg=";
     };
-    date = "2024-01-13";
+    date = "2024-01-19";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
