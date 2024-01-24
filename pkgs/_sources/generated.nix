@@ -237,16 +237,16 @@
   };
   marketplaceSrc = {
     pname = "marketplaceSrc";
-    version = "3debeb6d72b057da395874006de746dcba8badbe";
+    version = "0be75e4a764d91cfea9025d6af3f33ba7e15a515";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-marketplace";
-      rev = "3debeb6d72b057da395874006de746dcba8badbe";
+      rev = "0be75e4a764d91cfea9025d6af3f33ba7e15a515";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-LOzSDfQ5qfnoTudm8ACdfAZej19t+JA2LKIpu10k+i8=";
+      sha256 = "sha256-ZbZBG0ij2lw1Kg4s4sVJkIO3dj7ZLuQgeA3x1fr4Wng=";
     };
-    date = "2023-12-24";
+    date = "2024-01-24";
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
