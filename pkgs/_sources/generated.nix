@@ -276,14 +276,14 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "50835b76f2f9bb3f126a24217d469d793383a825";
+    version = "27f15b465bcda97eafb39119518d0ba3b8ec5697";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "50835b76f2f9bb3f126a24217d469d793383a825";
+      rev = "27f15b465bcda97eafb39119518d0ba3b8ec5697";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-G/rpWgjTV/IIrFuXoXPYc+1xitdukitdUvuPSDWnHAc=";
+      sha256 = "sha256-uaGZWLrWWzf6KlQ/rW3XQNdE0a0QVuismhzIrgfAtNA=";
     };
     date = "2024-02-02";
   };
