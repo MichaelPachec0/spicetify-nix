@@ -29,16 +29,16 @@
   };
   catppuccinSrc = {
     pname = "catppuccinSrc";
-    version = "ba3986981c717856d9ec68412c95ae282b505538";
+    version = "2f2718de97654d9e93abc8fd8b79d68e341a7f27";
     src = fetchgit {
       url = "https://github.com/catppuccin/spicetify";
-      rev = "ba3986981c717856d9ec68412c95ae282b505538";
+      rev = "2f2718de97654d9e93abc8fd8b79d68e341a7f27";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-0k0rSxjyzU5cjn2mTNqGHwo30Ar5rF0a+G/GG5xaL8U=";
+      sha256 = "sha256-+KQ6G2W2fp6dOs0KqsI8j5l+63Ax3h9jkVaoN0+/2bI=";
     };
-    date = "2024-01-19";
+    date = "2024-02-05";
   };
   charlieS1103GlazeSrc = {
     pname = "charlieS1103GlazeSrc";
