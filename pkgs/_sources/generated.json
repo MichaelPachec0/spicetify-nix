@@ -400,7 +400,7 @@
     },
     "officialSrc": {
         "cargoLocks": null,
-        "date": "2024-02-08",
+        "date": "2024-02-09",
         "extract": null,
         "name": "officialSrc",
         "passthru": null,
@@ -410,12 +410,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "771c1362d64d562ee1191da5b844a23bed757236",
-            "sha256": "sha256-rhDwLmi/y7FFlskWTL1AzBeuEGft6U4oZk6Gmpw1KEA=",
+            "rev": "e5449ca686797c7c31f5fcb34148663a38649156",
+            "sha256": "sha256-0fnx6SvGRs361/LyNLQnSyVfxYnOduhx14e2T2v+TBE=",
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-cli"
         },
-        "version": "771c1362d64d562ee1191da5b844a23bed757236"
+        "version": "e5449ca686797c7c31f5fcb34148663a38649156"
     },
     "officialThemes": {
         "cargoLocks": null,
