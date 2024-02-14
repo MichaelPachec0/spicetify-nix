@@ -276,29 +276,29 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "99c1f12145c0888d435f97ff0f0bc235944173d8";
+    version = "e47cd711d9f48afed72e4fd2e207d6a82fcda837";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "99c1f12145c0888d435f97ff0f0bc235944173d8";
+      rev = "e47cd711d9f48afed72e4fd2e207d6a82fcda837";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-TrQLNkngCFguVuQ9oMCOy3a0BoV+f9kDnupLFNDZRQU=";
+      sha256 = "sha256-XKOjfRSqy2kqJHtZU17vcBHzdX+mPSfxIc91d7p6Zcw=";
     };
-    date = "2024-02-12";
+    date = "2024-02-14";
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "3231c5e4d1a5f2dbae7aec65291364f863eaf9e0";
+    version = "72488a0c245cde37a52dcf10da0a624eb279bb53";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "3231c5e4d1a5f2dbae7aec65291364f863eaf9e0";
+      rev = "72488a0c245cde37a52dcf10da0a624eb279bb53";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-UeHrYgMOB4a7xnl2atAJiNGlvKg8hDyFoaiwNtmQ0Ss=";
+      sha256 = "sha256-3DI0K+En3vIliIAUpa92orBs66z7XJJR+4WCcdPMaKo=";
     };
-    date = "2024-01-30";
+    date = "2024-02-14";
   };
   omniSrc = {
     pname = "omniSrc";
@@ -419,16 +419,16 @@
   };
   startPageSrc = {
     pname = "startPageSrc";
-    version = "9e5f2e93c42c4b16d713976bcb37a0c9d02b09ad";
+    version = "a4170800510c3850b24700804459bc9dffa9e9e1";
     src = fetchgit {
       url = "https://github.com/Resxt/startup-page";
-      rev = "9e5f2e93c42c4b16d713976bcb37a0c9d02b09ad";
+      rev = "a4170800510c3850b24700804459bc9dffa9e9e1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Oa2T3xPe96zauBM02fgClYGJz/PvFoW0pTEeSEhwsPY=";
+      sha256 = "sha256-Afos9dHmkb114MyHYJ/NBteHT8wRGXpKZ9E9aMpI87k=";
     };
-    date = "2023-12-18";
+    date = "2024-02-14";
   };
   tetraxSrc = {
     pname = "tetraxSrc";
