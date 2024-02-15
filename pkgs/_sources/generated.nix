@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "0df5905847157ca0556028bf79286fdc5c158cc8";
+    version = "328fe29fdf807bff3a5df836ace2e72f85c0abc5";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "0df5905847157ca0556028bf79286fdc5c158cc8";
+      rev = "328fe29fdf807bff3a5df836ace2e72f85c0abc5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-QlpZN5UKDb1aiBCeXCr1cvHyS35KfUgJ2DbG2WUvpEg=";
+      sha256 = "sha256-l0l0GWYKkqZTqGJYupOHoY24aAx0tjZm7GlD3YmZr0k=";
     };
-    date = "2024-02-06";
+    date = "2024-02-15";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -276,16 +276,16 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "e47cd711d9f48afed72e4fd2e207d6a82fcda837";
+    version = "6f2879098ef2189902231ab75da471659eaed2f4";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "e47cd711d9f48afed72e4fd2e207d6a82fcda837";
+      rev = "6f2879098ef2189902231ab75da471659eaed2f4";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-XKOjfRSqy2kqJHtZU17vcBHzdX+mPSfxIc91d7p6Zcw=";
+      sha256 = "sha256-NCyt0fwcLhCy4XreYUoOKC6zHejffRmBTOBJLA0Q/yI=";
     };
-    date = "2024-02-14";
+    date = "2024-02-15";
   };
   officialThemes = {
     pname = "officialThemes";
@@ -419,16 +419,16 @@
   };
   startPageSrc = {
     pname = "startPageSrc";
-    version = "a4170800510c3850b24700804459bc9dffa9e9e1";
+    version = "75bd17ba1c9a19730f14529fb18857d7b9c7c12e";
     src = fetchgit {
       url = "https://github.com/Resxt/startup-page";
-      rev = "a4170800510c3850b24700804459bc9dffa9e9e1";
+      rev = "75bd17ba1c9a19730f14529fb18857d7b9c7c12e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Afos9dHmkb114MyHYJ/NBteHT8wRGXpKZ9E9aMpI87k=";
+      sha256 = "sha256-+Th5o00c3Y8U+Y/RGmRSkWWp97YCoCJmoESFLZf9dwM=";
     };
-    date = "2024-02-14";
+    date = "2024-02-15";
   };
   tetraxSrc = {
     pname = "tetraxSrc";
