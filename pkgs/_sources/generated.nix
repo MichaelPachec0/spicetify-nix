@@ -276,16 +276,16 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "c20c485d8f2c701298536bd4e5c2c706336120b0";
+    version = "34b89f5b722e9afe50ab9159a717c9028b9a02a5";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "c20c485d8f2c701298536bd4e5c2c706336120b0";
+      rev = "34b89f5b722e9afe50ab9159a717c9028b9a02a5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-1bakWUhB47o37pV6cbfDRdHdqreGKFhU7LFajIM5mhw=";
+      sha256 = "sha256-nKbdwgxHiI1N2REEI7WrPf54uy4Nm1XU0g5hEjYriEY=";
     };
-    date = "2024-02-27";
+    date = "2024-02-29";
   };
   officialThemes = {
     pname = "officialThemes";
@@ -328,16 +328,16 @@
   };
   playlistIconsSrc = {
     pname = "playlistIconsSrc";
-    version = "acd0b95baab94a3223990ddfe9bdccb155302748";
+    version = "9b86f492d391d7ccb53c7d4be64add69aba65d64";
     src = fetchgit {
       url = "https://github.com/jeroentvb/spicetify-playlist-icons";
-      rev = "acd0b95baab94a3223990ddfe9bdccb155302748";
+      rev = "9b86f492d391d7ccb53c7d4be64add69aba65d64";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Tc9bX3HlZfT5d98ED9WVuFIBlZf9qY89rcDlHivMBvA=";
+      sha256 = "sha256-zih0ae7rL8WSVM6oesYMCpIubNwCQFvfyHUgmA0EmTY=";
     };
-    date = "2023-10-20";
+    date = "2024-02-28";
   };
   powerBarSrc = {
     pname = "powerBarSrc";
