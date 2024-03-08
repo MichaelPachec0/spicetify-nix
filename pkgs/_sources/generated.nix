@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "828cb7403985e3dc8c250f9a9d27bc198be6425f";
+    version = "04fef884f7eb6fbc9e689977ff8503aa1feb351d";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "828cb7403985e3dc8c250f9a9d27bc198be6425f";
+      rev = "04fef884f7eb6fbc9e689977ff8503aa1feb351d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-0IHoSQXr/1aiEw2H4mxfyPhRe0bkgiTtsv14aG/LVYM=";
+      sha256 = "sha256-BkMNGaDFDY4x0YMIWTKn3PYbHFUTyah80Yo6DyVSjVo=";
     };
-    date = "2024-03-04";
+    date = "2024-03-08";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -172,16 +172,16 @@
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
-    version = "672e6c9cd7a4f56ebccb79ef756864e152f98de0";
+    version = "efdefe08692f23f1ef98405e0b9c1fa220b1da84";
     src = fetchgit {
       url = "https://github.com/theRealPadster/spicetify-hide-podcasts";
-      rev = "672e6c9cd7a4f56ebccb79ef756864e152f98de0";
+      rev = "efdefe08692f23f1ef98405e0b9c1fa220b1da84";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-/PtsNQIgCoebn+zGJeim+OjbXTd1oEzFEaHhmNHYxlg=";
+      sha256 = "sha256-Kbz7qNVLoJh381pldQxV40V3RkPRq18vVV0oqmsgbI8=";
     };
-    date = "2024-03-02";
+    date = "2024-03-07";
   };
   historySrc = {
     pname = "historySrc";
@@ -289,16 +289,16 @@
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "72488a0c245cde37a52dcf10da0a624eb279bb53";
+    version = "d7e33260b06575a300caaa5ddf7d901381da3b51";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "72488a0c245cde37a52dcf10da0a624eb279bb53";
+      rev = "d7e33260b06575a300caaa5ddf7d901381da3b51";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-3DI0K+En3vIliIAUpa92orBs66z7XJJR+4WCcdPMaKo=";
+      sha256 = "sha256-JIbz6+SPgvnM0jsmkE+W+A2hrY0lS1LLq9Yx5GqwiQA=";
     };
-    date = "2024-02-14";
+    date = "2024-03-08";
   };
   omniSrc = {
     pname = "omniSrc";
