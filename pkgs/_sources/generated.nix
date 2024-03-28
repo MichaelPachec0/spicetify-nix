@@ -172,16 +172,16 @@
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
-    version = "efdefe08692f23f1ef98405e0b9c1fa220b1da84";
+    version = "aa07db6567733af6b6cd7ec3472c2e8cefe0ed3d";
     src = fetchgit {
       url = "https://github.com/theRealPadster/spicetify-hide-podcasts";
-      rev = "efdefe08692f23f1ef98405e0b9c1fa220b1da84";
+      rev = "aa07db6567733af6b6cd7ec3472c2e8cefe0ed3d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Kbz7qNVLoJh381pldQxV40V3RkPRq18vVV0oqmsgbI8=";
+      sha256 = "sha256-U8t2V+EhTdmUUjdACainHEwu1umRPy2Uj81RzoBX+bY=";
     };
-    date = "2024-03-07";
+    date = "2024-03-28";
   };
   historySrc = {
     pname = "historySrc";
@@ -276,29 +276,29 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "03770a9083515d2ce1771c58cb5d0b91343776dd";
+    version = "80437c94a58a3a342cb36d7fa035563546c77f25";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "03770a9083515d2ce1771c58cb5d0b91343776dd";
+      rev = "80437c94a58a3a342cb36d7fa035563546c77f25";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-werJNCrRFnWpxzD9QAuhi4/ZtmoxBRY5syBziaFkYcE=";
+      sha256 = "sha256-VhY1BmloqJDmq4Q1Dp01oVIZEbah7e9872zC082R0l0=";
     };
-    date = "2024-03-26";
+    date = "2024-03-28";
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "d7e33260b06575a300caaa5ddf7d901381da3b51";
+    version = "fe3ac5808ad8e505ca166eca18dd0c03db748389";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "d7e33260b06575a300caaa5ddf7d901381da3b51";
+      rev = "fe3ac5808ad8e505ca166eca18dd0c03db748389";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-JIbz6+SPgvnM0jsmkE+W+A2hrY0lS1LLq9Yx5GqwiQA=";
+      sha256 = "sha256-2uNG6rGdx+m/42rQBF5p9C5ZdzPrtAiaCJ2uqfbP2Lg=";
     };
-    date = "2024-03-08";
+    date = "2024-03-28";
   };
   omniSrc = {
     pname = "omniSrc";
