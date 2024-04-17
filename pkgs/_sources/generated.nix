@@ -68,14 +68,14 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "0ff56cf2aa93bb3a21181a93832d17a5328dd720";
+    version = "8d9cee8fa983a21df5ea402321d7cb858e5e7726";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "0ff56cf2aa93bb3a21181a93832d17a5328dd720";
+      rev = "8d9cee8fa983a21df5ea402321d7cb858e5e7726";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-wEdFDzFnkqo+FIceLXQ/e4CWe8t3vzyphBJ70vLfF5E=";
+      sha256 = "sha256-6ygWqIM7VEBleOZwI9zdjVgMyQLbQZ+5Dejo1adBps0=";
     };
     date = "2024-04-16";
   };
@@ -328,16 +328,16 @@
   };
   playlistIconsSrc = {
     pname = "playlistIconsSrc";
-    version = "9b86f492d391d7ccb53c7d4be64add69aba65d64";
+    version = "7a4bcbf1fc6b37ac37e16cacb9c9bcd0fe99636e";
     src = fetchgit {
       url = "https://github.com/jeroentvb/spicetify-playlist-icons";
-      rev = "9b86f492d391d7ccb53c7d4be64add69aba65d64";
+      rev = "7a4bcbf1fc6b37ac37e16cacb9c9bcd0fe99636e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-zih0ae7rL8WSVM6oesYMCpIubNwCQFvfyHUgmA0EmTY=";
+      sha256 = "sha256-N0MNpfoBLkH+8/UgYD1R7yIn1hpZ+tpm1hGp+VtASsU=";
     };
-    date = "2024-02-28";
+    date = "2024-04-17";
   };
   powerBarSrc = {
     pname = "powerBarSrc";
