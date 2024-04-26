@@ -16,16 +16,16 @@
   };
   bloomSrc = {
     pname = "bloomSrc";
-    version = "66dac67be2a4850e5c13eeaa0fbb5de0583f2ae3";
+    version = "1062e0731ee567d045f4deb6eccdd1a17fba5ee3";
     src = fetchgit {
       url = "https://github.com/nimsandu/spicetify-bloom";
-      rev = "66dac67be2a4850e5c13eeaa0fbb5de0583f2ae3";
+      rev = "1062e0731ee567d045f4deb6eccdd1a17fba5ee3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-REU2B1kLzoV+gHgRrRk7mSB6UkZS3CkZBykCNUaK/oc=";
+      sha256 = "sha256-urVFgUIK58BHwXMYUmaRzJNLw46GepB+HZgULdFp7Uo=";
     };
-    date = "2024-01-20";
+    date = "2024-04-26";
   };
   catppuccinSrc = {
     pname = "catppuccinSrc";
@@ -68,16 +68,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "5c061c9ca4ae0e1bb3f87b543afadb211399d462";
+    version = "bf993d81f4f436cca1996f1563468b7446476491";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "5c061c9ca4ae0e1bb3f87b543afadb211399d462";
+      rev = "bf993d81f4f436cca1996f1563468b7446476491";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-81C9NzwxCEuf68IS0SqETjpqTVa+q80GGnGCOQ+f75I=";
+      sha256 = "sha256-UDdoyk+oyLSvNLwDiCJYDi4qI5/TlKpiG4qhGVOyv4k=";
     };
-    date = "2024-04-24";
+    date = "2024-04-26";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -341,16 +341,16 @@
   };
   powerBarSrc = {
     pname = "powerBarSrc";
-    version = "2044217153d070aab3a93bda796177e61e6c4a65";
+    version = "c3c191803934053885eb7a275c09a1e3b943f590";
     src = fetchgit {
       url = "https://github.com/jeroentvb/spicetify-power-bar";
-      rev = "2044217153d070aab3a93bda796177e61e6c4a65";
+      rev = "c3c191803934053885eb7a275c09a1e3b943f590";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-ELTfhkqPusEzCwjopd7aXuo5loG14chg50nuMjkzYSI=";
+      sha256 = "sha256-zagQwuRpKADrhJHfFc/SkeARj7bwc/DQBMlv6Sv/q3U=";
     };
-    date = "2023-08-28";
+    date = "2024-04-26";
   };
   retroBlurSrc = {
     pname = "retroBlurSrc";
