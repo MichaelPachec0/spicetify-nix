@@ -96,7 +96,7 @@
     },
     "comfySrc": {
         "cargoLocks": null,
-        "date": "2024-04-30",
+        "date": "2024-05-01",
         "extract": null,
         "name": "comfySrc",
         "passthru": null,
@@ -106,12 +106,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "233bdd5ea97b7c9e3f8625e6e8592766cdf38ff8",
-            "sha256": "sha256-iBQvofW5GUSmb7S+dAhYTJTmmUZUuzwWNKoaYXeL1C8=",
+            "rev": "234104c1f6ed9504a1773cc41753aee5a75e3a3e",
+            "sha256": "sha256-fK8aepzqJgYO16uwIHJ0BnXUMmogcUJsSCFy1gzzBjc=",
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "233bdd5ea97b7c9e3f8625e6e8592766cdf38ff8"
+        "version": "234104c1f6ed9504a1773cc41753aee5a75e3a3e"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
@@ -343,7 +343,7 @@
     },
     "marketplaceSrc": {
         "cargoLocks": null,
-        "date": "2024-04-26",
+        "date": "2024-05-01",
         "extract": null,
         "name": "marketplaceSrc",
         "passthru": null,
@@ -353,16 +353,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a1a1c8fba582582425498728b0b87e963c4c6f0d",
-            "sha256": "sha256-HDG+AFnQt1PcmNuK8H7HvoHDxHxHlp5LieEe/gwb5so=",
+            "rev": "a4b53e8703a6b78eff3287c4773180771c9d2eca",
+            "sha256": "sha256-9g3HmWiRAE2XHxOCleO4di2o4vqYWyTGxiTq5tGLhhA=",
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-marketplace"
         },
-        "version": "a1a1c8fba582582425498728b0b87e963c4c6f0d"
+        "version": "a4b53e8703a6b78eff3287c4773180771c9d2eca"
     },
     "nameThatTuneSrc": {
         "cargoLocks": null,
-        "date": "2024-04-14",
+        "date": "2024-05-01",
         "extract": null,
         "name": "nameThatTuneSrc",
         "passthru": null,
@@ -372,12 +372,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2462406736f716465e033675e0ee0eca832524bf",
-            "sha256": "sha256-f5A98/jMOCjBMOMeuuMltD57JpApvF5NGDzIb7zEw4M=",
+            "rev": "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89",
+            "sha256": "sha256-cMwAliGu8gtpDz64EAkbBQUxw4jyycguzGO5JbJR3As=",
             "type": "git",
             "url": "https://github.com/theRealPadster/name-that-tune"
         },
-        "version": "2462406736f716465e033675e0ee0eca832524bf"
+        "version": "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89"
     },
     "nordSrc": {
         "cargoLocks": null,
