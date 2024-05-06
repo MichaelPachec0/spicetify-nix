@@ -141,6 +141,3 @@ src.git = "https://github.com/harbassan/spicetify-stats"
 src.branch = "dist"
 fetch.git = "https://github.com/harbassan/spicetify-stats"
 
-[charlieS1103GlazeSrc]
-src.git = "https://github.com/CharlieS1103/Glaze-theme"
-fetch.git = "https://github.com/CharlieS1103/Glaze-theme"
