@@ -94,16 +94,16 @@
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
-    version = "d6cc95055ff3b592091c6879b48c5cd6dfb4cd07";
+    version = "92d137aa4f570394e0d0adcad827d290b32d7fee";
     src = fetchgit {
       url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-      rev = "d6cc95055ff3b592091c6879b48c5cd6dfb4cd07";
+      rev = "92d137aa4f570394e0d0adcad827d290b32d7fee";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-jDuQAui5hR1NNZFHddbcSK2OmCvIHhQuh6jC3rqOQvM=";
+      sha256 = "sha256-AJGG15UrkGhidyxwB5Gk2IKUEzw8c7z+zhMCE4DjMt8=";
     };
-    date = "2024-05-05";
+    date = "2024-05-06";
   };
   draculaSrc = {
     pname = "draculaSrc";
