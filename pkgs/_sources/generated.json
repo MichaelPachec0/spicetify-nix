@@ -87,12 +87,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "82535a7b36ccdd6d44743c019737a760bec24a12",
-            "sha256": "sha256-Zn/wKmfHuerrN5abWWnkdwFY+4a13wwCAiKYVvjelp8=",
+            "rev": "c252ee47f69b69118bcbeaea3d7c49693cbfb317",
+            "sha256": "sha256-9rD4oY02B9oqIo5b6jwj8y3HziK5N4JkkxKfeR7H9ec=",
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "82535a7b36ccdd6d44743c019737a760bec24a12"
+        "version": "c252ee47f69b69118bcbeaea3d7c49693cbfb317"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
@@ -552,7 +552,7 @@
     },
     "spotifyNoPremiumSrc": {
         "cargoLocks": null,
-        "date": "2024-01-11",
+        "date": "2024-05-12",
         "extract": null,
         "name": "spotifyNoPremiumSrc",
         "passthru": null,
@@ -562,12 +562,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b67e393a3eacab964ed388d10802944fc1935148",
-            "sha256": "sha256-HvJa7F92DwzP1q8qxjxgKVUUCS8SFlsk5jUEgj2VQSg=",
+            "rev": "13c540cd0950028f7133feac58ca557c48565c14",
+            "sha256": "sha256-6BNGLOctoQMYED/FuXytLOUHNsoq11N5lVQ5BoQ0Nr8=",
             "type": "git",
             "url": "https://github.com/Daksh777/SpotifyNoPremium"
         },
-        "version": "b67e393a3eacab964ed388d10802944fc1935148"
+        "version": "13c540cd0950028f7133feac58ca557c48565c14"
     },
     "spotifywmSrc": {
         "cargoLocks": null,
