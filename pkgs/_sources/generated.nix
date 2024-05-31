@@ -55,16 +55,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "4b587265017b2e2d43ce664019b9c12ed9d471da";
+    version = "b47edd5ceffddf2e0e4a4e3c43bf7b08351c8a3d";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "4b587265017b2e2d43ce664019b9c12ed9d471da";
+      rev = "b47edd5ceffddf2e0e4a4e3c43bf7b08351c8a3d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Kdo7hjQ0xYz6ru1n4+43Wr/RkKwIuvmKVPQnhiJ4NLI=";
+      sha256 = "sha256-wy/ElkrpxEzTP4jyAihftL+ImXwVLI8WI9oWGoqS3TA=";
     };
-    date = "2024-05-28";
+    date = "2024-05-31";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
