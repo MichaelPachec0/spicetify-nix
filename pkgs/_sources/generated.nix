@@ -55,16 +55,16 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "b47edd5ceffddf2e0e4a4e3c43bf7b08351c8a3d";
+    version = "1e7051a9db18242ffba1060950c7e0843cc3f1fd";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "b47edd5ceffddf2e0e4a4e3c43bf7b08351c8a3d";
+      rev = "1e7051a9db18242ffba1060950c7e0843cc3f1fd";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-wy/ElkrpxEzTP4jyAihftL+ImXwVLI8WI9oWGoqS3TA=";
+      sha256 = "sha256-Yp8RMMWYUhsOiGZshYuoN6bnA3SNLZx3xgA3qALoSMA=";
     };
-    date = "2024-05-31";
+    date = "2024-06-01";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -224,29 +224,29 @@
   };
   marketplaceSrc = {
     pname = "marketplaceSrc";
-    version = "2661aff34256c5c69c8934a0042851fb06e5cbdb";
+    version = "8790fda05a05e655512637b5d16c20b06aacaeaa";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-marketplace";
-      rev = "2661aff34256c5c69c8934a0042851fb06e5cbdb";
+      rev = "8790fda05a05e655512637b5d16c20b06aacaeaa";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-IPycbgmAUy55pqDK3arV4rMv98TuARfCqarBGkv2wkw=";
+      sha256 = "sha256-2PgYc8EQoDkziCUNd+sYf5tg054UbQ2vyVoLSfyTKqw=";
     };
-    date = "2024-05-21";
+    date = "2024-06-01";
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89";
+    version = "14a1f8ad1722781379a6dd0f3f29336006ca97e6";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89";
+      rev = "14a1f8ad1722781379a6dd0f3f29336006ca97e6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-cMwAliGu8gtpDz64EAkbBQUxw4jyycguzGO5JbJR3As=";
+      sha256 = "sha256-B4ZESPqj0/1BiY3uUvY0yCIjjx1yF4eOz6Dsxgr0HQ8=";
     };
-    date = "2024-05-01";
+    date = "2024-06-01";
   };
   nordSrc = {
     pname = "nordSrc";
