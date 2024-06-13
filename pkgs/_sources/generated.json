@@ -13,6 +13,7 @@
             "name": null,
             "rev": "d7f7962724b567a8409ef2898602f2c57abddf5a",
             "sha256": "sha256-WquDmeaj+7M8DzGuHYOJgF6ifcs3vj3gIciZMaRQ3t4=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/amanharwara/spicetify-autoVolume"
         },
@@ -32,6 +33,7 @@
             "name": null,
             "rev": "3054e57f0d799eb2b3c03d9a474b2e8131343b9f",
             "sha256": "sha256-z766IVdn67fAgxh/aeZmV0ySaJQfPPCxR43NvJA/aY8=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/nimsandu/spicetify-bloom"
         },
@@ -51,6 +53,7 @@
             "name": null,
             "rev": "4294a61f54a044768c6e9db20e83c5b74da71091",
             "sha256": "sha256-OHsauoCjj99aoIbq78xQf1ehYtLpIcUde5DmZSJFCXI=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/catppuccin/spicetify"
         },
@@ -70,6 +73,7 @@
             "name": null,
             "rev": "ab8fe9ccabc86477bc55a561fc532a0fa416d58c",
             "sha256": "sha256-14Q1hHowE0w9ynpjlM6rM079Hqu1WVy3dzarwCZSXHE=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/CharlieS1103/spicetify-extensions"
         },
@@ -89,6 +93,7 @@
             "name": null,
             "rev": "d0648ecd36b9407ce997bd0596d1df9d73cbbd0e",
             "sha256": "sha256-DJVEk8bN2WKGumEhgIS+LYS9GiGCYSXEsWklXMniFjM=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
@@ -108,6 +113,7 @@
             "name": null,
             "rev": "0f5e79fe43abf57f714d7d00bd288870d5b6f718",
             "sha256": "sha256-4zL/z8dCafy5V95ASR3c6TffMh9wdpnclAjddD9TX84=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/3raxton/spicetify-custom-apps-and-extensions"
         },
@@ -127,6 +133,7 @@
             "name": null,
             "rev": "e16e54e8463270e636ba4353170b222e10661600",
             "sha256": "sha256-ksTCISkR7BADA8TWJCmmw7IupEC1q5RIijk9rzhXGN8=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/daksh2k/Spicetify-stuff"
         },
@@ -146,6 +153,7 @@
             "name": null,
             "rev": "33420415072628a7f1f9e8860b16027ee3c334c9",
             "sha256": "sha256-3fSEENkLWLYfhB+lxJ238TSr+5saVzwhs/N2fu2d9Oo=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/JulienMaille/spicetify-dynamic-theme"
         },
@@ -165,6 +173,7 @@
             "name": null,
             "rev": "97bf149e7afbe408509862591a57f1d8e2dfc5d7",
             "sha256": "sha256-IS0A/5zTZou9yQJ0zpqAwiW2COt/TGoscN99WGFR9FA=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Darkempire78/Dracula-Spicetify"
         },
@@ -184,6 +193,7 @@
             "name": null,
             "rev": "2a6a86f9ec0c5fd5509e90ddb07f60e5e8828f08",
             "sha256": "sha256-+Ic/Wh9ymncDJCssahkD5TemeaE7rlC69V8B7hoNu7o=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Pithaya/spicetify-apps-dist"
         },
@@ -203,6 +213,7 @@
             "name": null,
             "rev": "64b946af1ee4a5ed761d2f065c45b710e06bc123",
             "sha256": "sha256-M6kczYmo0/+yL6iuMgkXECIQLOXDIR1aY8htS4KWjCE=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/williamckha/spicetify-fluent"
         },
@@ -222,6 +233,7 @@
             "name": null,
             "rev": "bc93e673d7efaa0294eca69321de33dc1dc8bdc3",
             "sha256": "sha256-GY0V6UwKhbKONAE+vZgV6xx3BzUUvfjjeyH1yYzVl2g=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/timll/spotify-group-session"
         },
@@ -241,6 +253,7 @@
             "name": null,
             "rev": "4b4d39842088ca4717166a04e914b338ea5a8680",
             "sha256": "sha256-o62evqPjxKwJTpJsRM+9F1cuGLpIyy07tf5aO8KxNk8=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
@@ -260,6 +273,7 @@
             "name": null,
             "rev": "577e34f364127f18d917d2fe2e8c8f2a1af9f6ae",
             "sha256": "sha256-ORG1oNvMTJxrI3spfAuN+pCKTKvQfhqUIYT9NM1yZTs=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/einzigartigerName/spicetify-history"
         },
@@ -279,6 +293,7 @@
             "name": null,
             "rev": "f032dde7cce9d441795d9e2f728531684e97e3fa",
             "sha256": "sha256-fttZYeWqGNy4A9FqHe8znaWGePI2bBE92Ir4bp3i1wY=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/huhridge/huh-spicetify-extensions"
         },
@@ -298,6 +313,7 @@
             "name": null,
             "rev": "d2f1d3c1e286d789ddfa002f162405782d822c55",
             "sha256": "sha256-/C4Y3zuSAEwhMXCRG2/4b5oWfGz/ij6wu0B+CpuJKXs=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/LucasBares/spicetify-last-fm"
         },
@@ -317,6 +333,7 @@
             "name": null,
             "rev": "1bfd2fc80385b21ed6dd207b00a371065e53042e",
             "sha256": "sha256-neKR2WaZ1K10dZZ0nAKJJEHNS56o8vCpYpi+ZJYJ/gU=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/hroland/spicetify-show-local-files"
         },
@@ -336,6 +353,7 @@
             "name": null,
             "rev": "4d595134063241d17b1eaaa8ec3919205a8e431a",
             "sha256": "sha256-Nh+BICszb6GLSdVhUzOspB+vZ73v8ClupPtJq3c5qfc=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-marketplace"
         },
@@ -355,6 +373,7 @@
             "name": null,
             "rev": "14a1f8ad1722781379a6dd0f3f29336006ca97e6",
             "sha256": "sha256-B4ZESPqj0/1BiY3uUvY0yCIjjx1yF4eOz6Dsxgr0HQ8=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/name-that-tune"
         },
@@ -374,6 +393,7 @@
             "name": null,
             "rev": "caab9e0afaa6d228b4d73ae6c4c40dd56d3888c7",
             "sha256": "sha256-HlywN6a6nQ9Z1Rsg3crkFQuY+npXaN4Qo9cjPLfeqmw=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Tetrax-10/Nord-Spotify"
         },
@@ -381,7 +401,7 @@
     },
     "officialSrc": {
         "cargoLocks": null,
-        "date": "2024-06-08",
+        "date": "2024-06-13",
         "extract": null,
         "name": "officialSrc",
         "passthru": null,
@@ -391,12 +411,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d674d778855bb8e38dec2ba23d5ddac6826f7d63",
-            "sha256": "sha256-wAZ45RqxiAC6ELrBG4YB8yuksDQmqq+LPJfWhPqgRDI=",
+            "rev": "c1493ae64f5f0f83201fde6413019e864ff09425",
+            "sha256": "sha256-s+arCV5O8EaheJSlRCXxWqIwSPZ2SfRWKVFnYTgBYIQ=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-cli"
         },
-        "version": "d674d778855bb8e38dec2ba23d5ddac6826f7d63"
+        "version": "c1493ae64f5f0f83201fde6413019e864ff09425"
     },
     "officialThemes": {
         "cargoLocks": null,
@@ -412,6 +433,7 @@
             "name": null,
             "rev": "dfdd89ad84d5c68915c65e4a83580047349c49b4",
             "sha256": "sha256-8IF2Y7xJtzk92rl4bfjiMXCISzUMaxXxOaMZkLS5mww=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-themes"
         },
@@ -431,6 +453,7 @@
             "name": null,
             "rev": "253ae45d2cac2dc3d92a43193ea8f6d9e7e1d3aa",
             "sha256": "sha256-5II+4096fOcCA7J4XZfIHSse+3/YJ+EY5KW3GXl+dn8=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/getomni/spicetify"
         },
@@ -450,6 +473,7 @@
             "name": null,
             "rev": "5bf3fcf0696514dcf3e95f4ae3fd00261ccc5dcc",
             "sha256": "sha256-9cU2Wlg5W57JpBfzIOXvpRYI8Q3CsH+UsdjQseTr9bs=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/canbeardig/Spicetify-Orchis-Colours-v2"
         },
@@ -469,6 +493,7 @@
             "name": null,
             "rev": "7a4bcbf1fc6b37ac37e16cacb9c9bcd0fe99636e",
             "sha256": "sha256-N0MNpfoBLkH+8/UgYD1R7yIn1hpZ+tpm1hGp+VtASsU=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/jeroentvb/spicetify-playlist-icons"
         },
@@ -488,6 +513,7 @@
             "name": null,
             "rev": "021ffb8839a6ef5959f306693288f2b96bd3b992",
             "sha256": "sha256-fWxe1JWWfICA+wuTH+wok+xvYHS9+rG9s51LqeMEDAE=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/jeroentvb/spicetify-power-bar"
         },
@@ -507,6 +533,7 @@
             "name": null,
             "rev": "685cf3aea4ed1a4d82f687293f0efb5baa1aec06",
             "sha256": "sha256-YAOmeSAxD0qR8Y7t+HOBoTCJtiJNfveJCmiptfg25OE=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Motschen/Retroblur"
         },
@@ -526,6 +553,7 @@
             "name": null,
             "rev": "cd1a86eaa9a0e5f3eba50a8d6a4c364bc540aedd",
             "sha256": "sha256-kyrI67uBBikx7V0nHzC4whIaC3OIJrKDdABy3U0W1ww=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/harbassan/spicetify-stats"
         },
@@ -545,6 +573,7 @@
             "name": null,
             "rev": "d3fd4a3ef31726bc9b9f5192bc7f4e6bc2f98e6c",
             "sha256": "sha256-QhhxZo2V+jhJfsEM+TFTzHb6A5ddnsyTJdDgtshSpk8=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/itsmeow/Spicetify-Canvas"
         },
@@ -564,6 +593,7 @@
             "name": null,
             "rev": "9abed42e8777de09041b1197dfe5794266ce6523",
             "sha256": "sha256-uhCFkL0Y2UdMaDecS9GE6Xl23loG54K304v2V8mqEA4=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Daksh777/SpotifyNoPremium"
         },
@@ -583,6 +613,7 @@
             "name": null,
             "rev": "8624f539549973c124ed18753881045968881745",
             "sha256": "sha256-AsXqcoqUXUFxTG+G+31lm45gjP6qGohEnUSUtKypew0=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/dasJ/spotifywm"
         },
@@ -602,6 +633,7 @@
             "name": null,
             "rev": "75bd17ba1c9a19730f14529fb18857d7b9c7c12e",
             "sha256": "sha256-+Th5o00c3Y8U+Y/RGmRSkWWp97YCoCJmoESFLZf9dwM=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Resxt/startup-page"
         },
@@ -621,6 +653,7 @@
             "name": null,
             "rev": "a224969550b3831c4fb084bcc8c675f3a77735d1",
             "sha256": "sha256-XT0l6DVaXXaD7QihilpF3vQ+kry98sss3POR5gTRmhI=",
+            "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Tetrax-10/Spicetify-Extensions"
         },
