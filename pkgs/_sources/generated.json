@@ -361,7 +361,7 @@
     },
     "nameThatTuneSrc": {
         "cargoLocks": null,
-        "date": "2024-06-01",
+        "date": "2024-06-21",
         "extract": null,
         "name": "nameThatTuneSrc",
         "passthru": null,
@@ -371,13 +371,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "14a1f8ad1722781379a6dd0f3f29336006ca97e6",
-            "sha256": "sha256-B4ZESPqj0/1BiY3uUvY0yCIjjx1yF4eOz6Dsxgr0HQ8=",
+            "rev": "9ddfdb7f01c085156cb32925f975704d0921996e",
+            "sha256": "sha256-ngblkKTk46udenlD6ttVs1FXFCFs4cxLSdr5Mxnc9Kc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/name-that-tune"
         },
-        "version": "14a1f8ad1722781379a6dd0f3f29336006ca97e6"
+        "version": "9ddfdb7f01c085156cb32925f975704d0921996e"
     },
     "nordSrc": {
         "cargoLocks": null,
