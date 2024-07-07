@@ -81,7 +81,7 @@
     },
     "comfySrc": {
         "cargoLocks": null,
-        "date": "2024-07-06",
+        "date": "2024-07-07",
         "extract": null,
         "name": "comfySrc",
         "passthru": null,
@@ -91,13 +91,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3ba3ec5e01e53096e7bc8d1bbb9d4c0809f01417",
-            "sha256": "sha256-eBkTvGXtv61ttzso2NWsSeq+YLojndZ/XZahTiuMm6A=",
+            "rev": "192863cfd9f360039b6fa52c37a6ac1d6435e3b2",
+            "sha256": "sha256-LrloHTFChoCBrmst9+kI3xJSAxdSSdqtG8Hnvk0XeTA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "3ba3ec5e01e53096e7bc8d1bbb9d4c0809f01417"
+        "version": "192863cfd9f360039b6fa52c37a6ac1d6435e3b2"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
@@ -341,7 +341,7 @@
     },
     "marketplaceSrc": {
         "cargoLocks": null,
-        "date": "2024-06-17",
+        "date": "2024-07-07",
         "extract": null,
         "name": "marketplaceSrc",
         "passthru": null,
@@ -351,13 +351,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "8dff639eb2ba1b79feb71e861f005d5b6b17af64",
-            "sha256": "sha256-voRbsyOPeVY5lznXRzY/8SB+52po7Dq5IAPs0StmRTA=",
+            "rev": "5753b3adab1a250e02417ed04e44e7c9d6720011",
+            "sha256": "sha256-3vMt2/8suiXsGuSKVLTkVIpJEkUcZyc1u5/yIY6AvhY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-marketplace"
         },
-        "version": "8dff639eb2ba1b79feb71e861f005d5b6b17af64"
+        "version": "5753b3adab1a250e02417ed04e44e7c9d6720011"
     },
     "nameThatTuneSrc": {
         "cargoLocks": null,
@@ -401,7 +401,7 @@
     },
     "officialSrc": {
         "cargoLocks": null,
-        "date": "2024-07-04",
+        "date": "2024-07-07",
         "extract": null,
         "name": "officialSrc",
         "passthru": null,
@@ -411,13 +411,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0771018f9e757b37a144106c26fdcaea898c524e",
-            "sha256": "sha256-zX3DBKFIIFKwmWjwBKMI8g+znHPYbaT/PKo5MU7NV+A=",
+            "rev": "7c1f287e7a0b39f9fdb3926a152ff872164f3c2d",
+            "sha256": "sha256-7imQmedY5NOM5u+Z2N7LH6UN/u8k+8smLwcONFGCoqw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-cli"
         },
-        "version": "0771018f9e757b37a144106c26fdcaea898c524e"
+        "version": "7c1f287e7a0b39f9fdb3926a152ff872164f3c2d"
     },
     "officialThemes": {
         "cargoLocks": null,
