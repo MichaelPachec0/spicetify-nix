@@ -81,7 +81,7 @@
     },
     "comfySrc": {
         "cargoLocks": null,
-        "date": "2024-07-07",
+        "date": "2024-07-08",
         "extract": null,
         "name": "comfySrc",
         "passthru": null,
@@ -91,13 +91,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "192863cfd9f360039b6fa52c37a6ac1d6435e3b2",
-            "sha256": "sha256-LrloHTFChoCBrmst9+kI3xJSAxdSSdqtG8Hnvk0XeTA=",
+            "rev": "14ee7efdba4d6ff4c120fe7e5f1c1e6f5512a7de",
+            "sha256": "sha256-Go+R/pPhdQVcZpiM6pSVG8hq9+LF4xymmz0azKIBzJ0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "192863cfd9f360039b6fa52c37a6ac1d6435e3b2"
+        "version": "14ee7efdba4d6ff4c120fe7e5f1c1e6f5512a7de"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
@@ -541,7 +541,7 @@
     },
     "spicetifyStatsSrc": {
         "cargoLocks": null,
-        "date": "2024-01-15",
+        "date": "2024-07-08",
         "extract": null,
         "name": "spicetifyStatsSrc",
         "passthru": null,
@@ -551,13 +551,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "cd1a86eaa9a0e5f3eba50a8d6a4c364bc540aedd",
-            "sha256": "sha256-kyrI67uBBikx7V0nHzC4whIaC3OIJrKDdABy3U0W1ww=",
+            "rev": "0a82d88e5517f21595c641c60015671dacb1d7fe",
+            "sha256": "sha256-JqJGLL96eABeV9Trp0Gevmjw8FqazCLu+9fsRvMR/KI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/harbassan/spicetify-stats"
         },
-        "version": "cd1a86eaa9a0e5f3eba50a8d6a4c364bc540aedd"
+        "version": "0a82d88e5517f21595c641c60015671dacb1d7fe"
     },
     "spotifyCanvasSrc": {
         "cargoLocks": null,
