@@ -241,7 +241,7 @@
     },
     "hidePodcastsSrc": {
         "cargoLocks": null,
-        "date": "2024-07-06",
+        "date": "2024-07-26",
         "extract": null,
         "name": "hidePodcastsSrc",
         "passthru": null,
@@ -251,13 +251,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "30b164971c3d49ac456040269a2263e843ad1f7d",
-            "sha256": "sha256-N8hBKMEQwz77dnAKKvTP20tW+D8P+K5l19SDkz8CGYg=",
+            "rev": "834f6b6771434b642e61e048d8a32829784748fa",
+            "sha256": "sha256-60Sk7e+YA1SQ7Z79fmYnWHmJlFDHKAbSR10Eor3MEbw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
-        "version": "30b164971c3d49ac456040269a2263e843ad1f7d"
+        "version": "834f6b6771434b642e61e048d8a32829784748fa"
     },
     "historySrc": {
         "cargoLocks": null,
@@ -401,7 +401,7 @@
     },
     "officialSrc": {
         "cargoLocks": null,
-        "date": "2024-07-14",
+        "date": "2024-07-27",
         "extract": null,
         "name": "officialSrc",
         "passthru": null,
@@ -411,13 +411,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ecf46810d80170dde87b2593f3bb7685d997b67c",
-            "sha256": "sha256-K3lhPeW6L9N9OljNn8e6iQqx4k4HX5A9mX7SUlv2IRw=",
+            "rev": "ef624c5dddf5c5d975483854f036cb6e0b0e16a0",
+            "sha256": "sha256-kJYwIGR/S/D2ILHRmL0pQhCGr5tbSXvWQiAcAHxsIuw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-cli"
         },
-        "version": "ecf46810d80170dde87b2593f3bb7685d997b67c"
+        "version": "ef624c5dddf5c5d975483854f036cb6e0b0e16a0"
     },
     "officialThemes": {
         "cargoLocks": null,
