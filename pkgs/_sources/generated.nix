@@ -171,17 +171,17 @@
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
-    version = "834f6b6771434b642e61e048d8a32829784748fa";
+    version = "a0752e5ef6f7bfd7399a0a795a437c0b398246ba";
     src = fetchgit {
       url = "https://github.com/theRealPadster/spicetify-hide-podcasts";
-      rev = "834f6b6771434b642e61e048d8a32829784748fa";
+      rev = "a0752e5ef6f7bfd7399a0a795a437c0b398246ba";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-60Sk7e+YA1SQ7Z79fmYnWHmJlFDHKAbSR10Eor3MEbw=";
+      sha256 = "sha256-mxodEgw0BaeRJri/2z9fmrFNCSE9soB1wV9uTGnGkWM=";
     };
-    date = "2024-07-26";
+    date = "2024-08-02";
   };
   historySrc = {
     pname = "historySrc";
@@ -241,17 +241,17 @@
   };
   marketplaceSrc = {
     pname = "marketplaceSrc";
-    version = "21a21d2e9cca6fdaadb9985a11e4ea49dc034c9a";
+    version = "7c6169c0ce04d15403eea0e3a3915f2609823dfc";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-marketplace";
-      rev = "21a21d2e9cca6fdaadb9985a11e4ea49dc034c9a";
+      rev = "7c6169c0ce04d15403eea0e3a3915f2609823dfc";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-N4nRhNanx6T7VX8JS8sM7OHEHt0L4XrlLXS4m4UR84U=";
+      sha256 = "sha256-t561Sij9+YLzzXWv39UBpsG2fxHWI+J6JsHrRaF5xBw=";
     };
-    date = "2024-08-01";
+    date = "2024-08-02";
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
@@ -283,17 +283,17 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "ef624c5dddf5c5d975483854f036cb6e0b0e16a0";
+    version = "cbf39cfa9d1bfa2517bb10865e3d07e8a4a7576d";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "ef624c5dddf5c5d975483854f036cb6e0b0e16a0";
+      rev = "cbf39cfa9d1bfa2517bb10865e3d07e8a4a7576d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-kJYwIGR/S/D2ILHRmL0pQhCGr5tbSXvWQiAcAHxsIuw=";
+      sha256 = "sha256-gKrVIH607TV85/qgGTsiFQLUtEmJm3VZvmUwO3/IEbc=";
     };
-    date = "2024-07-27";
+    date = "2024-08-02";
   };
   officialThemes = {
     pname = "officialThemes";
