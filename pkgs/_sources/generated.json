@@ -81,7 +81,7 @@
     },
     "comfySrc": {
         "cargoLocks": null,
-        "date": "2024-08-04",
+        "date": "2024-08-06",
         "extract": null,
         "name": "comfySrc",
         "passthru": null,
@@ -91,13 +91,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c3acdc198d37529f03af96154d3182911938be09",
-            "sha256": "sha256-re6zWLGpUyzvAgnDti4sZ1z/rw8HQzNVLgZFqlSP2ZM=",
+            "rev": "afbbc044452c431a0483de2fe40b32832a9cc206",
+            "sha256": "sha256-ZEpaEhRiDrhVmhmb6N7Z/jPXD7Tpu8aBHF0cxAYMrks=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Comfy-Themes/Spicetify"
         },
-        "version": "c3acdc198d37529f03af96154d3182911938be09"
+        "version": "afbbc044452c431a0483de2fe40b32832a9cc206"
     },
     "customAppsExtensionsSrc": {
         "cargoLocks": null,
