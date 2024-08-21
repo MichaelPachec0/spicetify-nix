@@ -279,15 +279,6 @@ in
           replaceColors = true;
           overwriteAssets = true;
         };
-        Glaze = {
-          name = "Glaze";
-          src = charlieS1103GlazeSrc;
-          sidebarConfig = true;
-          appendName = false;
-          injectCss = true;
-          replaceColors = true;
-          overwriteAssets = true;
-        };
         Turntable = {
           name = "Turntable";
           src = officialThemes;

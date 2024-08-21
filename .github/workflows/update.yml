@@ -49,7 +49,7 @@ jobs:
           URL="https://api.github.com/repos/spicetify/spicetify-themes"
           START=$(date -d 'yesterday' --utc --iso-8601=seconds)
           END=$(date --utc --iso-8601=seconds)
-          LIST=$(curl -s "${URL}/commits?since=${START}&until=${END}" | jq -r '.[] | "\(.sha)"')
+          LIST=$(curl -s "${URL}/commits?since=${START}&until=${END}" | tr "\n" " " | jq -r '.[] | "\(.sha)"')
 
           # NOTE: make sure to exit if its a empty list
           if [ -z "$LIST" ]; then 
