@@ -151,13 +151,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "74da3036580159133c6e4777c9b70efa9eae8dfb",
-            "sha256": "sha256-VGaws9hbfQhpV2i6cII708P0HaSPsWcakgoFYOmig/Y=",
+            "rev": "fd098e6c15b6e7280888bdd900367968940c7650",
+            "sha256": "sha256-7O0D4IKhfqNRJ7oGSbiFK2eQSlM7IIkfrgyLaF1M88c=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/JulienMaille/spicetify-dynamic-theme"
         },
-        "version": "74da3036580159133c6e4777c9b70efa9eae8dfb"
+        "version": "fd098e6c15b6e7280888bdd900367968940c7650"
     },
     "draculaSrc": {
         "cargoLocks": null,

@@ -101,15 +101,15 @@
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
-    version = "74da3036580159133c6e4777c9b70efa9eae8dfb";
+    version = "fd098e6c15b6e7280888bdd900367968940c7650";
     src = fetchgit {
       url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-      rev = "74da3036580159133c6e4777c9b70efa9eae8dfb";
+      rev = "fd098e6c15b6e7280888bdd900367968940c7650";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-VGaws9hbfQhpV2i6cII708P0HaSPsWcakgoFYOmig/Y=";
+      sha256 = "sha256-7O0D4IKhfqNRJ7oGSbiFK2eQSlM7IIkfrgyLaF1M88c=";
     };
     date = "2024-08-29";
   };
