@@ -341,7 +341,7 @@
     },
     "marketplaceSrc": {
         "cargoLocks": null,
-        "date": "2024-08-27",
+        "date": "2024-09-01",
         "extract": null,
         "name": "marketplaceSrc",
         "passthru": null,
@@ -351,17 +351,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "49b7dfd515baa85a68dac4fc9825ee7e2016472d",
-            "sha256": "sha256-uIUIu9oJKLPUWiK26xs3XMreU874xE7D5kdy7eAFW1Q=",
+            "rev": "3039016c53bdd85042c8901c82c817c6c524b243",
+            "sha256": "sha256-T/Zrqn8im/3M7heOiMOrK6FmSsJnR4RglCZOeEiHgWg=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/spicetify-marketplace"
         },
-        "version": "49b7dfd515baa85a68dac4fc9825ee7e2016472d"
+        "version": "3039016c53bdd85042c8901c82c817c6c524b243"
     },
     "nameThatTuneSrc": {
         "cargoLocks": null,
-        "date": "2024-07-24",
+        "date": "2024-09-01",
         "extract": null,
         "name": "nameThatTuneSrc",
         "passthru": null,
@@ -371,13 +371,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bbe78ab2c65eda8950b6da26c7065b0238fe20d3",
-            "sha256": "sha256-3zBopcQ8AbQu6GDEePVDjBf/f7H9YcJrzWkD8r2qyac=",
+            "rev": "7641c98264556dc50698a1d7754070ae90569aad",
+            "sha256": "sha256-oyn1AWk6ncg8V5y7zHHX8gy4SSOtKoSTan1FqoIpZYI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/name-that-tune"
         },
-        "version": "bbe78ab2c65eda8950b6da26c7065b0238fe20d3"
+        "version": "7641c98264556dc50698a1d7754070ae90569aad"
     },
     "nordSrc": {
         "cargoLocks": null,
