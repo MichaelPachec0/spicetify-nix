@@ -241,7 +241,7 @@
     },
     "hidePodcastsSrc": {
         "cargoLocks": null,
-        "date": "2024-10-01",
+        "date": "2024-10-03",
         "extract": null,
         "name": "hidePodcastsSrc",
         "passthru": null,
@@ -251,13 +251,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2e9cd4a4e95b5a6a35a63a7aedd059407f85b231",
-            "sha256": "sha256-L5LY1scgoVYNwNcBc0argj3WkC8QVUSQB7Zo0hDBj9c=",
+            "rev": "310aa977af20e334cc3a3b49c60af0250744eef9",
+            "sha256": "sha256-imfrRGSJ97FrGMZhJY3FUV7Ll+WlcBaAlPLEQmyPWU8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
-        "version": "2e9cd4a4e95b5a6a35a63a7aedd059407f85b231"
+        "version": "310aa977af20e334cc3a3b49c60af0250744eef9"
     },
     "historySrc": {
         "cargoLocks": null,
