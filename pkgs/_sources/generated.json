@@ -251,13 +251,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "310aa977af20e334cc3a3b49c60af0250744eef9",
-            "sha256": "sha256-imfrRGSJ97FrGMZhJY3FUV7Ll+WlcBaAlPLEQmyPWU8=",
+            "rev": "543317437791dd44ee083fe21c3b4885f0cb33a7",
+            "sha256": "sha256-p0Sx1/+lt+4V7k2e3HtSYKlqLFIOii70013HMlNN0xk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
-        "version": "310aa977af20e334cc3a3b49c60af0250744eef9"
+        "version": "543317437791dd44ee083fe21c3b4885f0cb33a7"
     },
     "historySrc": {
         "cargoLocks": null,

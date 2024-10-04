@@ -171,15 +171,15 @@
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
-    version = "310aa977af20e334cc3a3b49c60af0250744eef9";
+    version = "543317437791dd44ee083fe21c3b4885f0cb33a7";
     src = fetchgit {
       url = "https://github.com/theRealPadster/spicetify-hide-podcasts";
-      rev = "310aa977af20e334cc3a3b49c60af0250744eef9";
+      rev = "543317437791dd44ee083fe21c3b4885f0cb33a7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-imfrRGSJ97FrGMZhJY3FUV7Ll+WlcBaAlPLEQmyPWU8=";
+      sha256 = "sha256-p0Sx1/+lt+4V7k2e3HtSYKlqLFIOii70013HMlNN0xk=";
     };
     date = "2024-10-03";
   };
