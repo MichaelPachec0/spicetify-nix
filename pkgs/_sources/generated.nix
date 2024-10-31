@@ -59,17 +59,17 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "5f8dc11b9fcb67be65a1adf8e103e2862748a3b8";
+    version = "db9a174bfe30cd39370ae6a31d854e119617b4aa";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "5f8dc11b9fcb67be65a1adf8e103e2862748a3b8";
+      rev = "db9a174bfe30cd39370ae6a31d854e119617b4aa";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Q897jap48rWvSN67pacSspjyJl/NGmFXD8wUUE3DaLk=";
+      sha256 = "sha256-cJR9Q9aO1DKrqVjL2eAe1HHI5deCV1/Yd+AN5x0vUtk=";
     };
-    date = "2024-10-28";
+    date = "2024-10-30";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -199,17 +199,17 @@
   };
   huhExtensionsSrc = {
     pname = "huhExtensionsSrc";
-    version = "f032dde7cce9d441795d9e2f728531684e97e3fa";
+    version = "d58201e27716df86ace457a82dce980175c2d65d";
     src = fetchgit {
       url = "https://github.com/huhridge/huh-spicetify-extensions";
-      rev = "f032dde7cce9d441795d9e2f728531684e97e3fa";
+      rev = "d58201e27716df86ace457a82dce980175c2d65d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-fttZYeWqGNy4A9FqHe8znaWGePI2bBE92Ir4bp3i1wY=";
+      sha256 = "sha256-ZJJC7mGsM6H8rEfX82CF0kkv/2MYHehN+nS7FktV/t4=";
     };
-    date = "2023-12-06";
+    date = "2024-10-31";
   };
   lastfmSrc = {
     pname = "lastfmSrc";
