@@ -73,17 +73,17 @@
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
-    version = "0f5e79fe43abf57f714d7d00bd288870d5b6f718";
+    version = "bb12c53dc11413e980ce3e40fbcec6f23b752003";
     src = fetchgit {
       url = "https://github.com/3raxton/spicetify-custom-apps-and-extensions";
-      rev = "0f5e79fe43abf57f714d7d00bd288870d5b6f718";
+      rev = "bb12c53dc11413e980ce3e40fbcec6f23b752003";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4zL/z8dCafy5V95ASR3c6TffMh9wdpnclAjddD9TX84=";
+      sha256 = "sha256-7kVG5rAGKr8FTtXG7h0V2dBd8MBG5ntBwOjANN2Oheg=";
     };
-    date = "2022-05-02";
+    date = "2024-11-07";
   };
   dakshExtensions = {
     pname = "dakshExtensions";
@@ -101,17 +101,17 @@
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
-    version = "b4454ee2f1fae3de55da5720b0610b4231ce64d8";
+    version = "c210f2a0ca5607c34ea2766d3bdff565157b76bd";
     src = fetchgit {
       url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-      rev = "b4454ee2f1fae3de55da5720b0610b4231ce64d8";
+      rev = "c210f2a0ca5607c34ea2766d3bdff565157b76bd";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-dY/lAO8BGCGYKR163Ny2hjsQRiOJJ6DABRDXXhjcFg0=";
+      sha256 = "sha256-3Sq+Z+Fvrwpdi3WFXrX+N94/nySCe6QTeJFzUu+ELwI=";
     };
-    date = "2024-11-06";
+    date = "2024-11-07";
   };
   draculaSrc = {
     pname = "draculaSrc";
@@ -297,17 +297,17 @@
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "751e07963bbc998b2a74af8c2dfbb2415fcf1473";
+    version = "c6e82dfeaa46ee9060d0c02fc437989eb77f6c61";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "751e07963bbc998b2a74af8c2dfbb2415fcf1473";
+      rev = "c6e82dfeaa46ee9060d0c02fc437989eb77f6c61";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-SFk41yZYyupXEETx2HSaqRwy5BuRB0QTMqHeN+sW06A=";
+      sha256 = "sha256-kpHIWHuubTEwIoi+645Ai/PqXTlZMhRcBueYwgCqG2E=";
     };
-    date = "2024-10-24";
+    date = "2024-11-07";
   };
   omniSrc = {
     pname = "omniSrc";
