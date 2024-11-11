@@ -409,17 +409,17 @@
   };
   spotifyNoPremiumSrc = {
     pname = "spotifyNoPremiumSrc";
-    version = "9abed42e8777de09041b1197dfe5794266ce6523";
+    version = "6b145fb84e16cdaea8f06aef4d1cfc0d6f5898e5";
     src = fetchgit {
       url = "https://github.com/Daksh777/SpotifyNoPremium";
-      rev = "9abed42e8777de09041b1197dfe5794266ce6523";
+      rev = "6b145fb84e16cdaea8f06aef4d1cfc0d6f5898e5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-uhCFkL0Y2UdMaDecS9GE6Xl23loG54K304v2V8mqEA4=";
+      sha256 = "sha256-pjIBh40SnUgyAKGwVRKod2ac8+uqGJ2WSTnOYc9UnGA=";
     };
-    date = "2024-05-22";
+    date = "2024-11-11";
   };
   spotifywmSrc = {
     pname = "spotifywmSrc";
