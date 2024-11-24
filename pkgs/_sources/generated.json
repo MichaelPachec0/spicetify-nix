@@ -121,7 +121,7 @@
     },
     "dakshExtensions": {
         "cargoLocks": null,
-        "date": "2024-11-19",
+        "date": "2024-11-24",
         "extract": null,
         "name": "dakshExtensions",
         "passthru": null,
@@ -131,17 +131,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9ee7cc54827a6baf09fa0839f6eb268de892adac",
-            "sha256": "sha256-TBNzAf+0PiIUwveBAQgWFMeKqZDRWe/v1F8MXunL9Vc=",
+            "rev": "877f813485b823301b03444a1153f363b2e7417e",
+            "sha256": "sha256-tTqyj3lTTRFEbKJt16ncSOBbKfxw7w022zd8A2FdoL4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/daksh2k/Spicetify-stuff"
         },
-        "version": "9ee7cc54827a6baf09fa0839f6eb268de892adac"
+        "version": "877f813485b823301b03444a1153f363b2e7417e"
     },
     "defaultDynamicSrc": {
         "cargoLocks": null,
-        "date": "2024-11-15",
+        "date": "2024-11-24",
         "extract": null,
         "name": "defaultDynamicSrc",
         "passthru": null,
@@ -151,13 +151,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ef8f831fa53f0a0cc2d06053d36fde35d2a2eeb0",
-            "sha256": "sha256-dZ9SMf2JnZvL2JC/TEF9yaFL5kAkjfl1F24rSjCxIrA=",
+            "rev": "11af283c480e739719f1d4538f5062789056a8ef",
+            "sha256": "sha256-Whuigmyzo3LxWsY74vWk6+0Lu+b3vSvoYIxuptzM6/w=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/JulienMaille/spicetify-dynamic-theme"
         },
-        "version": "ef8f831fa53f0a0cc2d06053d36fde35d2a2eeb0"
+        "version": "11af283c480e739719f1d4538f5062789056a8ef"
     },
     "draculaSrc": {
         "cargoLocks": null,
