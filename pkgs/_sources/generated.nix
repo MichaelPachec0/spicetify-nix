@@ -255,17 +255,17 @@
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "2f56755a820a9d06c8f85a0b38fcaa5f3ae9e7e5";
+    version = "5cfd68bf2f6e7a73473920e31340702531b16a9e";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "2f56755a820a9d06c8f85a0b38fcaa5f3ae9e7e5";
+      rev = "5cfd68bf2f6e7a73473920e31340702531b16a9e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-zBGEpUmVyNABoelX06CbmUn1Zmkp4reehjN/++DSS3Y=";
+      sha256 = "sha256-tOOV6E/POuJJEq318/840kPGlhuVCHlfwMVJBEDJzqQ=";
     };
-    date = "2024-11-01";
+    date = "2025-01-01";
   };
   nordSrc = {
     pname = "nordSrc";
