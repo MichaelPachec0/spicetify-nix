@@ -241,7 +241,7 @@
     },
     "hidePodcastsSrc": {
         "cargoLocks": null,
-        "date": "2024-12-01",
+        "date": "2025-01-01",
         "extract": null,
         "name": "hidePodcastsSrc",
         "passthru": null,
@@ -251,13 +251,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "07de1ba9981f6a6523adc2f8d8870c5339f6c3f2",
-            "sha256": "sha256-jTM66x6Z2ZyfaDMlhT7zuueffVLo4184MmOJPaaPcY4=",
+            "rev": "36ed07c460cab47cb352b2e2fd493b00df1eabaf",
+            "sha256": "sha256-iLifViDyIBmJot2UjWVpMywv+iwKK4gtGYPD/J/eyRc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
-        "version": "07de1ba9981f6a6523adc2f8d8870c5339f6c3f2"
+        "version": "36ed07c460cab47cb352b2e2fd493b00df1eabaf"
     },
     "historySrc": {
         "cargoLocks": null,
@@ -371,13 +371,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "5cfd68bf2f6e7a73473920e31340702531b16a9e",
-            "sha256": "sha256-tOOV6E/POuJJEq318/840kPGlhuVCHlfwMVJBEDJzqQ=",
+            "rev": "858b98baa97e486a8589b26164c9eb1aa3605282",
+            "sha256": "sha256-fBdR6foZGM+YPv52TBhhF0qPDDsgflD6viWebOZcY4Y=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/theRealPadster/name-that-tune"
         },
-        "version": "5cfd68bf2f6e7a73473920e31340702531b16a9e"
+        "version": "858b98baa97e486a8589b26164c9eb1aa3605282"
     },
     "nordSrc": {
         "cargoLocks": null,
