@@ -181,7 +181,7 @@
     },
     "eternalJukeboxSrc": {
         "cargoLocks": null,
-        "date": "2024-08-07",
+        "date": "2025-01-13",
         "extract": null,
         "name": "eternalJukeboxSrc",
         "passthru": null,
@@ -191,13 +191,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d643d2c4c3824a8ce22142c68431bec5af6d1fcb",
-            "sha256": "sha256-My1TuuFeih3QgaU8Nfv8ocIzE55ypM/QmfCt4RPy/5g=",
+            "rev": "59e7a702cd1cf66dfa297e2b75c410daf58c7ef8",
+            "sha256": "sha256-GkL/NC3GZyigCbU0azk42G4cNfYmeKtibLttSTj9BaE=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Pithaya/spicetify-apps-dist"
         },
-        "version": "d643d2c4c3824a8ce22142c68431bec5af6d1fcb"
+        "version": "59e7a702cd1cf66dfa297e2b75c410daf58c7ef8"
     },
     "fluentSrc": {
         "cargoLocks": null,
