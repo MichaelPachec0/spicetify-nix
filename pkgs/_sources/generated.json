@@ -191,13 +191,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "59e7a702cd1cf66dfa297e2b75c410daf58c7ef8",
-            "sha256": "sha256-GkL/NC3GZyigCbU0azk42G4cNfYmeKtibLttSTj9BaE=",
+            "rev": "63fcfce9bac7de59ca9cd06908c63705c8611625",
+            "sha256": "sha256-mz358KeCsVJbrYhY+3fWbHhZkn9UbTM3uxv5wc8hltk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Pithaya/spicetify-apps-dist"
         },
-        "version": "59e7a702cd1cf66dfa297e2b75c410daf58c7ef8"
+        "version": "63fcfce9bac7de59ca9cd06908c63705c8611625"
     },
     "fluentSrc": {
         "cargoLocks": null,
