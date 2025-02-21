@@ -67,8 +67,10 @@ in
     name = "spicetify-${theme.name}";
     postInstall = ''
       set -e
-      export SPICETIFY_CONFIG=$out/share/spicetify
+      export SPICETIFY_CONFIG="$out/share/spicetify"
+      export SPICETIFY_STATE="$${SPOTIFY_CONFIG}/state"
       mkdir -p $SPICETIFY_CONFIG
+      mkdir -p $SPICETIFY_STATE
 
       # move spicetify bin here
       cp ${spicetify}/bin/spicetify-cli $SPICETIFY_CONFIG/spicetify-cli
