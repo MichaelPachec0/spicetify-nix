@@ -121,7 +121,7 @@
     },
     "dakshExtensions": {
         "cargoLocks": null,
-        "date": "2025-03-01",
+        "date": "2025-03-04",
         "extract": null,
         "name": "dakshExtensions",
         "passthru": null,
@@ -131,13 +131,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "8888b08caa61c0f835d795a0e0ffc5c89c873242",
-            "sha256": "sha256-OtLtWMVN9Jwer+vVKU1NbkXfFqEAvzuDUt/ckjAHbnU=",
+            "rev": "e9f2dbe020f612b3cb7746620ad702e4f4a3c24f",
+            "sha256": "sha256-0/YsXHQtezE++edcUIqCZ0Rn3SsP5Pb41M1UnbPMulo=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/daksh2k/Spicetify-stuff"
         },
-        "version": "8888b08caa61c0f835d795a0e0ffc5c89c873242"
+        "version": "e9f2dbe020f612b3cb7746620ad702e4f4a3c24f"
     },
     "defaultDynamicSrc": {
         "cargoLocks": null,
