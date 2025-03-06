@@ -129,17 +129,17 @@
   };
   eternalJukeboxSrc = {
     pname = "eternalJukeboxSrc";
-    version = "63fcfce9bac7de59ca9cd06908c63705c8611625";
+    version = "53fc5e7efe781512ca4b00615788ba3e8d1c6247";
     src = fetchgit {
       url = "https://github.com/Pithaya/spicetify-apps-dist";
-      rev = "63fcfce9bac7de59ca9cd06908c63705c8611625";
+      rev = "53fc5e7efe781512ca4b00615788ba3e8d1c6247";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-mz358KeCsVJbrYhY+3fWbHhZkn9UbTM3uxv5wc8hltk=";
+      sha256 = "sha256-4BV+N980DCOBLM+FGrl+Fv1ANWKodfC9ozfmdAubc50=";
     };
-    date = "2025-01-13";
+    date = "2025-03-05";
   };
   fluentSrc = {
     pname = "fluentSrc";
