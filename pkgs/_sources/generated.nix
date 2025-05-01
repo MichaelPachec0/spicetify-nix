@@ -241,31 +241,31 @@
   };
   marketplaceSrc = {
     pname = "marketplaceSrc";
-    version = "679ea95050b51721286421ae96c126134fb789e5";
+    version = "8f1822c37291024026844e977da5de143036b71a";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-marketplace";
-      rev = "679ea95050b51721286421ae96c126134fb789e5";
+      rev = "8f1822c37291024026844e977da5de143036b71a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-XEGdDii66UJKhYN27BJ6TFu25jmboEq33lwaqrt9SbM=";
+      sha256 = "sha256-6G0gmG8V4Jh2SEpvyz2CwlqQ+IHVzipS1h9nulN0UnE=";
     };
-    date = "2025-04-29";
+    date = "2025-05-01";
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "858b98baa97e486a8589b26164c9eb1aa3605282";
+    version = "66779220715879b0ec27685b7792aa46ec37e672";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "858b98baa97e486a8589b26164c9eb1aa3605282";
+      rev = "66779220715879b0ec27685b7792aa46ec37e672";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-fBdR6foZGM+YPv52TBhhF0qPDDsgflD6viWebOZcY4Y=";
+      sha256 = "sha256-sCyRMmWUbDcAxc9S44y5w9LfMjD1qG6v9JBe+sV5s9s=";
     };
-    date = "2025-01-01";
+    date = "2025-05-01";
   };
   nordSrc = {
     pname = "nordSrc";
