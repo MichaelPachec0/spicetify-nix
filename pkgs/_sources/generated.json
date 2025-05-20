@@ -21,7 +21,7 @@
     },
     "bloomSrc": {
         "cargoLocks": null,
-        "date": "2024-09-09",
+        "date": "2025-05-20",
         "extract": null,
         "name": "bloomSrc",
         "passthru": null,
@@ -31,13 +31,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "809c042ca8f88540604fbd6aca35f42bddfcaf27",
-            "sha256": "sha256-dyCCpTiLAqObeHEfmwT89J52NB3M2L17/E5klIXMTec=",
+            "rev": "654cfed682b94613b0029997ffafc1eadccc5bef",
+            "sha256": "sha256-+pIf2N/yR8XwltRStSePUWDkm2x96hBbDrHbCF8a86k=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/nimsandu/spicetify-bloom"
         },
-        "version": "809c042ca8f88540604fbd6aca35f42bddfcaf27"
+        "version": "654cfed682b94613b0029997ffafc1eadccc5bef"
     },
     "catppuccinSrc": {
         "cargoLocks": null,
