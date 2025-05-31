@@ -87,17 +87,17 @@
   };
   dakshExtensions = {
     pname = "dakshExtensions";
-    version = "e9f2dbe020f612b3cb7746620ad702e4f4a3c24f";
+    version = "a49f5cea948aa3ef0c00c2f4df0f42c647fa7196";
     src = fetchgit {
       url = "https://github.com/daksh2k/Spicetify-stuff";
-      rev = "e9f2dbe020f612b3cb7746620ad702e4f4a3c24f";
+      rev = "a49f5cea948aa3ef0c00c2f4df0f42c647fa7196";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-0/YsXHQtezE++edcUIqCZ0Rn3SsP5Pb41M1UnbPMulo=";
+      sha256 = "sha256-Vt8NbwuaLLPC738jNePUDTHTEkrq3WBHRTxgI0riEOQ=";
     };
-    date = "2025-03-04";
+    date = "2025-05-31";
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
@@ -451,16 +451,16 @@
   };
   tetraxSrc = {
     pname = "tetraxSrc";
-    version = "a224969550b3831c4fb084bcc8c675f3a77735d1";
+    version = "26c608469889a415534e29d5382b3039aed1d426";
     src = fetchgit {
       url = "https://github.com/Tetrax-10/Spicetify-Extensions";
-      rev = "a224969550b3831c4fb084bcc8c675f3a77735d1";
+      rev = "26c608469889a415534e29d5382b3039aed1d426";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-XT0l6DVaXXaD7QihilpF3vQ+kry98sss3POR5gTRmhI=";
+      sha256 = "sha256-XXjUbbH7fZXxTyK4+Vgt/MELWehPAMxG8auGCFXiQjg=";
     };
-    date = "2023-07-22";
+    date = "2025-05-31";
   };
 }
