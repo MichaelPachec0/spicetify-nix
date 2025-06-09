@@ -61,7 +61,7 @@
     in "${command} || echo \"Copying custom app ${item.name} failed.\"")
     apps);
 
-  spicetifyCmd = "spicetify-cli --no-restart";
+  spicetifyCmd = "spicetify --no-restart";
 in
   spotify.overrideAttrs (_: {
     name = "spicetify-${theme.name}";
@@ -73,8 +73,8 @@ in
       mkdir -p $SPICETIFY_STATE
 
       # move spicetify bin here
-      cp ${spicetify}/bin/spicetify-cli $SPICETIFY_CONFIG/spicetify-cli
-      ${coreutils-full}/bin/chmod +x $SPICETIFY_CONFIG/spicetify-cli
+      cp ${spicetify}/bin/spicetify $SPICETIFY_CONFIG/spicetify
+      ${coreutils-full}/bin/chmod +x $SPICETIFY_CONFIG/spicetify
       cp -r ${spicetify}/bin/jsHelper $SPICETIFY_CONFIG/jsHelper
       # grab the css map
       cp -r ${cssMap} $SPICETIFY_CONFIG/css-map.json
