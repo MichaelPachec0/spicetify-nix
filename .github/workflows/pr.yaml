@@ -1,8 +1,8 @@
 name: "Build Checks"
 
-on: 
+on:
   pull_request:
-    branches: [main, dev]
+    branches: [master]
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: clean
         uses: jlumbroso/free-disk-space@main
@@ -22,7 +22,7 @@ jobs:
           tool-cache: false 
 
       - name: nix install
-        uses: cachix/install-nix-action@v21
+        uses: cachix/install-nix-action@v31
         with:
           nix_path: nixpkgs=channel:nixos-unstable
           extra_nix_config: |

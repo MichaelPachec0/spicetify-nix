@@ -1,0 +1,54 @@
+name: "Update Flake Lock"
+
+on:
+  schedule:
+    # weekly, Monday 04:00 UTC (kept separate from the nightly source bump
+    # so nixpkgs churn is decoupled from spicetify package updates)
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+jobs:
+  lockfile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      NIXPKGS_ALLOW_UNFREE: 1
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v5
+      with:
+        token: ${{ secrets.PAT }}
+        path: src
+
+    - name: free-disk-cache
+      uses: jlumbroso/free-disk-space@main
+      with:
+        tool-cache: false
+
+    - name: Install nix
+      uses: cachix/install-nix-action@v31
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+          access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update flake inputs
+      run: |
+        cd src/
+        nix flake update
+
+    - name: Build nix packages
+      run: |
+        cd src/
+        nix build .#checks.x86_64-linux.default --impure -v
+
+    - name: Push flake.lock
+      if: ${{ success() }}
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        repository: src/
+        commit_message: "chore: Update flake.lock"
+        file_pattern: "flake.lock"
