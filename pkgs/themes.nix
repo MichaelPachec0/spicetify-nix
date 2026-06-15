@@ -122,16 +122,6 @@ with source; let
     ];
   };
 
-  Orchis = {
-    name = "DarkGreen";
-    src = orchisSrc;
-    appendName = true;
-    injectCss = true;
-    replaceColors = true;
-    overwriteAssets = false;
-    sidebarConfig = false;
-  };
-
   Dracula = {
     name = "Dracula";
     src = draculaSrc;
@@ -302,7 +292,6 @@ in
       RetroBlur
       Omni
       Bloom
-      Orchis
       Dracula
       Nord
       SpotifyCanvas

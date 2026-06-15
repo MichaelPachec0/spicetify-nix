@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         token: ${{ secrets.PAT }}
         path: src
@@ -36,7 +36,7 @@ jobs:
       run: df -h 
 
     - name: Install nix
-      uses: cachix/install-nix-action@v21
+      uses: cachix/install-nix-action@v31
       with:
         nix_path: nixpkgs=channel:nixos-unstable
         extra_nix_config: |
@@ -66,7 +66,7 @@ jobs:
           fi
 
     - name: Download Manifest
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       if: steps.manifest.outputs.check == 'true'
       with:
         repository: spicetify/spicetify-themes
@@ -78,7 +78,7 @@ jobs:
           cp -f themes/manifest.json src/
 
     - name: Update Manifest
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       if: steps.manifest.outputs.check == 'true'
       with:
         repository: src/
@@ -107,7 +107,7 @@ jobs:
 
     - name: Push updates
       if: ${{ success() }}
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: src/
         commit_message: "chore: Bump Spicetify Packages"

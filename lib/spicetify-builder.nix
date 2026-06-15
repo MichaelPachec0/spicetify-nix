@@ -75,7 +75,7 @@ in
       # move spicetify bin here
       cp ${spicetify}/bin/spicetify $SPICETIFY_CONFIG/spicetify
       ${coreutils-full}/bin/chmod +x $SPICETIFY_CONFIG/spicetify
-      cp -r ${spicetify}/bin/jsHelper $SPICETIFY_CONFIG/jsHelper
+      cp -r ${spicetify.src}/jsHelper $SPICETIFY_CONFIG/jsHelper
       # grab the css map
       cp -r ${cssMap} $SPICETIFY_CONFIG/css-map.json
       # add the current directory to path

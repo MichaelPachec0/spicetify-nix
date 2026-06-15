@@ -283,17 +283,17 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "faba6d3070bbfa009e6e177bc55e11b3e41ad5d3";
+    version = "a1447c85082280736cd4e68b7a16f87ceae79104";
     src = fetchgit {
-      url = "https://github.com/spicetify/spicetify-cli";
-      rev = "faba6d3070bbfa009e6e177bc55e11b3e41ad5d3";
+      url = "https://github.com/spicetify/cli";
+      rev = "a1447c85082280736cd4e68b7a16f87ceae79104";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-/1Q0VAoL1MrmqdD8/xi5EkrOGGvNw0Wm+RJJGLPlT8A=";
+      sha256 = "sha256-BRPueYr6rl9b2ZqzXqZQU0LwQsauVlvGqXnVroFT0cE=";
     };
-    date = "2025-06-08";
+    date = "2026-05-01";
   };
   officialThemes = {
     pname = "officialThemes";
@@ -322,20 +322,6 @@
       sha256 = "sha256-5II+4096fOcCA7J4XZfIHSse+3/YJ+EY5KW3GXl+dn8=";
     };
     date = "2023-01-20";
-  };
-  orchisSrc = {
-    pname = "orchisSrc";
-    version = "5bf3fcf0696514dcf3e95f4ae3fd00261ccc5dcc";
-    src = fetchgit {
-      url = "https://github.com/canbeardig/Spicetify-Orchis-Colours-v2";
-      rev = "5bf3fcf0696514dcf3e95f4ae3fd00261ccc5dcc";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-9cU2Wlg5W57JpBfzIOXvpRYI8Q3CsH+UsdjQseTr9bs=";
-    };
-    date = "2022-05-20";
   };
   playlistIconsSrc = {
     pname = "playlistIconsSrc";

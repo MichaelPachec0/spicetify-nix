@@ -7,8 +7,8 @@ src.git = "https://github.com/spicetify/spicetify-themes"
 fetch.git = "https://github.com/spicetify/spicetify-themes"
 
 [officialSrc]
-src.git = "https://github.com/spicetify/spicetify-cli"
-fetch.git = "https://github.com/spicetify/spicetify-cli"
+src.git = "https://github.com/spicetify/cli"
+fetch.git = "https://github.com/spicetify/cli"
 
 [catppuccinSrc]
 src.git = "https://github.com/catppuccin/spicetify"
@@ -41,10 +41,6 @@ fetch.git = "https://github.com/getomni/spicetify"
 [bloomSrc]
 src.git = "https://github.com/nimsandu/spicetify-bloom"
 fetch.git = "https://github.com/nimsandu/spicetify-bloom"
-
-[orchisSrc]
-src.git = "https://github.com/canbeardig/Spicetify-Orchis-Colours-v2"
-fetch.git = "https://github.com/canbeardig/Spicetify-Orchis-Colours-v2"
 
 [draculaSrc]
 src.git = "https://github.com/Darkempire78/Dracula-Spicetify"
