@@ -234,11 +234,6 @@ in {
         optList
         (actualTheme == spicePkgs.official.themes.BurntSienna)
         [pkgs.montserrat]
-      )
-      ++ (
-        optList
-        (actualTheme == spicePkgs.themes.Orchis)
-        [pkgs.fira]
       );
     homeConfiguration = {
       home.packages = optList (!cfg.dontInstall) packagesToInstall;

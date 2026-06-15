@@ -42,10 +42,6 @@ fetch.git = "https://github.com/getomni/spicetify"
 src.git = "https://github.com/nimsandu/spicetify-bloom"
 fetch.git = "https://github.com/nimsandu/spicetify-bloom"
 
-[orchisSrc]
-src.git = "https://github.com/canbeardig/Spicetify-Orchis-Colours-v2"
-fetch.git = "https://github.com/canbeardig/Spicetify-Orchis-Colours-v2"
-
 [draculaSrc]
 src.git = "https://github.com/Darkempire78/Dracula-Spicetify"
 fetch.git = "https://github.com/Darkempire78/Dracula-Spicetify"
