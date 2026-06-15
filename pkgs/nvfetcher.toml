@@ -7,8 +7,8 @@ src.git = "https://github.com/spicetify/spicetify-themes"
 fetch.git = "https://github.com/spicetify/spicetify-themes"
 
 [officialSrc]
-src.git = "https://github.com/spicetify/spicetify-cli"
-fetch.git = "https://github.com/spicetify/spicetify-cli"
+src.git = "https://github.com/spicetify/cli"
+fetch.git = "https://github.com/spicetify/cli"
 
 [catppuccinSrc]
 src.git = "https://github.com/catppuccin/spicetify"
