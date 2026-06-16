@@ -175,7 +175,7 @@
             "sha256": "sha256-IS0A/5zTZou9yQJ0zpqAwiW2COt/TGoscN99WGFR9FA=",
             "sparseCheckout": [],
             "type": "git",
-            "url": "https://github.com/Darkempire78/Dracula-Spicetify"
+            "url": "https://github.com/clementwzk/Dracula-Spicetify"
         },
         "version": "97bf149e7afbe408509862591a57f1d8e2dfc5d7"
     },
@@ -235,7 +235,7 @@
             "sha256": "sha256-+DMtll5VGFkQIeeH+WklPow0iRzz0Sv1I/N8Gt4vzyQ=",
             "sparseCheckout": [],
             "type": "git",
-            "url": "https://github.com/timll/spotify-group-session"
+            "url": "https://github.com/t1mlange/spotify-group-session"
         },
         "version": "e6a2ce35589b9404e539c5778fa1c2efa53eefe6"
     },
@@ -275,7 +275,7 @@
             "sha256": "sha256-ORG1oNvMTJxrI3spfAuN+pCKTKvQfhqUIYT9NM1yZTs=",
             "sparseCheckout": [],
             "type": "git",
-            "url": "https://github.com/einzigartigerName/spicetify-history"
+            "url": "https://github.com/nelsongillo/spicetify-history"
         },
         "version": "577e34f364127f18d917d2fe2e8c8f2a1af9f6ae"
     },
@@ -315,7 +315,7 @@
             "sha256": "sha256-/C4Y3zuSAEwhMXCRG2/4b5oWfGz/ij6wu0B+CpuJKXs=",
             "sparseCheckout": [],
             "type": "git",
-            "url": "https://github.com/LucasBares/spicetify-last-fm"
+            "url": "https://github.com/Taeko-ar/spicetify-last-fm"
         },
         "version": "d2f1d3c1e286d789ddfa002f162405782d822c55"
     },
@@ -355,7 +355,7 @@
             "sha256": "sha256-VBIf/hThKpSpcHwsFAXF0FcVx3JKD0YqWRBxcDXQsA0=",
             "sparseCheckout": [],
             "type": "git",
-            "url": "https://github.com/spicetify/spicetify-marketplace"
+            "url": "https://github.com/spicetify/marketplace"
         },
         "version": "f5a7dfd20e56fcc9b698e0db89334349c2c8b7ea"
     },
@@ -535,7 +535,7 @@
             "sha256": "sha256-JqJGLL96eABeV9Trp0Gevmjw8FqazCLu+9fsRvMR/KI=",
             "sparseCheckout": [],
             "type": "git",
-            "url": "https://github.com/harbassan/spicetify-stats"
+            "url": "https://github.com/harbassan/spicetify-apps"
         },
         "version": "0a82d88e5517f21595c641c60015671dacb1d7fe"
     },
@@ -598,26 +598,6 @@
             "url": "https://github.com/dasJ/spotifywm"
         },
         "version": "8624f539549973c124ed18753881045968881745"
-    },
-    "startPageSrc": {
-        "cargoLocks": null,
-        "date": "2024-02-15",
-        "extract": null,
-        "name": "startPageSrc",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "75bd17ba1c9a19730f14529fb18857d7b9c7c12e",
-            "sha256": "sha256-+Th5o00c3Y8U+Y/RGmRSkWWp97YCoCJmoESFLZf9dwM=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Resxt/startup-page"
-        },
-        "version": "75bd17ba1c9a19730f14529fb18857d7b9c7c12e"
     },
     "tetraxSrc": {
         "cargoLocks": null,

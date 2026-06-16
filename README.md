@@ -1,6 +1,6 @@
 # Spicetify-Nix
 
-Modifies Spotify using [spicetify-cli](https://github.com/khanhas/spicetify-cli).
+Modifies Spotify using [spicetify-cli](https://github.com/spicetify/cli).
 
 [spicetify-themes](https://github.com/morpheusthewhite/spicetify-themes) are
 included and available.

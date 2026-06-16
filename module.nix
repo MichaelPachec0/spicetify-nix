@@ -65,7 +65,7 @@ in {
           "shuffle+.js"
           {
             src = pkgs.fetchgit {
-              url = "https://github.com/LucasBares/spicetify-last-fm";
+              url = "https://github.com/Taeko-ar/spicetify-last-fm";
               rev = "0f905b49362ea810b6247ac1950a2951dd35632e";
               sha256 = "1b0l2g5cyjj1nclw1ff7as9q94606mkq1k8l2s34zzdsx3m2zv81";
             };

@@ -43,8 +43,8 @@ src.git = "https://github.com/nimsandu/spicetify-bloom"
 fetch.git = "https://github.com/nimsandu/spicetify-bloom"
 
 [draculaSrc]
-src.git = "https://github.com/Darkempire78/Dracula-Spicetify"
-fetch.git = "https://github.com/Darkempire78/Dracula-Spicetify"
+src.git = "https://github.com/clementwzk/Dracula-Spicetify"
+fetch.git = "https://github.com/clementwzk/Dracula-Spicetify"
 
 [nordSrc]
 src.git = "https://github.com/Tetrax-10/Nord-Spotify"
@@ -60,16 +60,16 @@ src.git = "https://github.com/theRealPadster/spicetify-hide-podcasts"
 fetch.git = "https://github.com/theRealPadster/spicetify-hide-podcasts"
 
 [historySrc]
-src.git = "https://github.com/einzigartigerName/spicetify-history"
-fetch.git = "https://github.com/einzigartigerName/spicetify-history"
+src.git = "https://github.com/nelsongillo/spicetify-history"
+fetch.git = "https://github.com/nelsongillo/spicetify-history"
 
 # [genreSrc]
 # src.git = "https://github.com/Shinyhero36/Spicetify-Genre"
 # fetch.git = "https://github.com/Shinyhero36/Spicetify-Genre"
 
 [lastfmSrc]
-src.git = "https://github.com/LucasBares/spicetify-last-fm"
-fetch.git = "https://github.com/LucasBares/spicetify-last-fm"
+src.git = "https://github.com/Taeko-ar/spicetify-last-fm"
+fetch.git = "https://github.com/Taeko-ar/spicetify-last-fm"
 
 [localFilesSrc]
 src.git = "https://github.com/hroland/spicetify-show-local-files"
@@ -110,12 +110,8 @@ src.branch = "dist"
 fetch.git = "https://github.com/jeroentvb/spicetify-power-bar"
 
 [groupSessionSrc]
-src.git = "https://github.com/timll/spotify-group-session"
-fetch.git = "https://github.com/timll/spotify-group-session"
-
-[startPageSrc]
-src.git = "https://github.com/Resxt/startup-page"
-fetch.git = "https://github.com/Resxt/startup-page"
+src.git = "https://github.com/t1mlange/spotify-group-session"
+fetch.git = "https://github.com/t1mlange/spotify-group-session"
 
 [nameThatTuneSrc]
 src.git = "https://github.com/theRealPadster/name-that-tune"
@@ -123,9 +119,9 @@ src.branch = "dist"
 fetch.git = "https://github.com/theRealPadster/name-that-tune"
 
 [marketplaceSrc]
-src.git = "https://github.com/spicetify/spicetify-marketplace"
+src.git = "https://github.com/spicetify/marketplace"
 src.branch = "dist"
-fetch.git = "https://github.com/spicetify/spicetify-marketplace"
+fetch.git = "https://github.com/spicetify/marketplace"
 
 [eternalJukeboxSrc]
 src.git = "https://github.com/Pithaya/spicetify-apps-dist"
@@ -133,7 +129,7 @@ src.branch = "dist/eternal-jukebox"
 fetch.git = "https://github.com/Pithaya/spicetify-apps-dist"
 
 [spicetifyStatsSrc]
-src.git = "https://github.com/harbassan/spicetify-stats"
+src.git = "https://github.com/harbassan/spicetify-apps"
 src.branch = "dist"
-fetch.git = "https://github.com/harbassan/spicetify-stats"
+fetch.git = "https://github.com/harbassan/spicetify-apps"
 

@@ -117,7 +117,7 @@
     pname = "draculaSrc";
     version = "97bf149e7afbe408509862591a57f1d8e2dfc5d7";
     src = fetchgit {
-      url = "https://github.com/Darkempire78/Dracula-Spicetify";
+      url = "https://github.com/clementwzk/Dracula-Spicetify";
       rev = "97bf149e7afbe408509862591a57f1d8e2dfc5d7";
       fetchSubmodules = false;
       deepClone = false;
@@ -159,7 +159,7 @@
     pname = "groupSessionSrc";
     version = "e6a2ce35589b9404e539c5778fa1c2efa53eefe6";
     src = fetchgit {
-      url = "https://github.com/timll/spotify-group-session";
+      url = "https://github.com/t1mlange/spotify-group-session";
       rev = "e6a2ce35589b9404e539c5778fa1c2efa53eefe6";
       fetchSubmodules = false;
       deepClone = false;
@@ -187,7 +187,7 @@
     pname = "historySrc";
     version = "577e34f364127f18d917d2fe2e8c8f2a1af9f6ae";
     src = fetchgit {
-      url = "https://github.com/einzigartigerName/spicetify-history";
+      url = "https://github.com/nelsongillo/spicetify-history";
       rev = "577e34f364127f18d917d2fe2e8c8f2a1af9f6ae";
       fetchSubmodules = false;
       deepClone = false;
@@ -215,7 +215,7 @@
     pname = "lastfmSrc";
     version = "d2f1d3c1e286d789ddfa002f162405782d822c55";
     src = fetchgit {
-      url = "https://github.com/LucasBares/spicetify-last-fm";
+      url = "https://github.com/Taeko-ar/spicetify-last-fm";
       rev = "d2f1d3c1e286d789ddfa002f162405782d822c55";
       fetchSubmodules = false;
       deepClone = false;
@@ -243,7 +243,7 @@
     pname = "marketplaceSrc";
     version = "f5a7dfd20e56fcc9b698e0db89334349c2c8b7ea";
     src = fetchgit {
-      url = "https://github.com/spicetify/spicetify-marketplace";
+      url = "https://github.com/spicetify/marketplace";
       rev = "f5a7dfd20e56fcc9b698e0db89334349c2c8b7ea";
       fetchSubmodules = false;
       deepClone = false;
@@ -369,7 +369,7 @@
     pname = "spicetifyStatsSrc";
     version = "0a82d88e5517f21595c641c60015671dacb1d7fe";
     src = fetchgit {
-      url = "https://github.com/harbassan/spicetify-stats";
+      url = "https://github.com/harbassan/spicetify-apps";
       rev = "0a82d88e5517f21595c641c60015671dacb1d7fe";
       fetchSubmodules = false;
       deepClone = false;
@@ -420,20 +420,6 @@
       sha256 = "sha256-AsXqcoqUXUFxTG+G+31lm45gjP6qGohEnUSUtKypew0=";
     };
     date = "2022-10-25";
-  };
-  startPageSrc = {
-    pname = "startPageSrc";
-    version = "75bd17ba1c9a19730f14529fb18857d7b9c7c12e";
-    src = fetchgit {
-      url = "https://github.com/Resxt/startup-page";
-      rev = "75bd17ba1c9a19730f14529fb18857d7b9c7c12e";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-+Th5o00c3Y8U+Y/RGmRSkWWp97YCoCJmoESFLZf9dwM=";
-    };
-    date = "2024-02-15";
   };
   tetraxSrc = {
     pname = "tetraxSrc";
