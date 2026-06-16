@@ -122,7 +122,7 @@
     pname = "draculaSrc";
     version = "97bf149e7afbe408509862591a57f1d8e2dfc5d7";
     src = fetchgit {
-      url = "https://github.com/Darkempire78/Dracula-Spicetify";
+      url = "https://github.com/clementwzk/Dracula-Spicetify";
       rev = "97bf149e7afbe408509862591a57f1d8e2dfc5d7";
       fetchSubmodules = false;
       deepClone = false;
@@ -164,7 +164,7 @@
     pname = "groupSessionSrc";
     version = "e6a2ce35589b9404e539c5778fa1c2efa53eefe6";
     src = fetchgit {
-      url = "https://github.com/timll/spotify-group-session";
+      url = "https://github.com/t1mlange/spotify-group-session";
       rev = "e6a2ce35589b9404e539c5778fa1c2efa53eefe6";
       fetchSubmodules = false;
       deepClone = false;
@@ -192,7 +192,7 @@
     pname = "historySrc";
     version = "577e34f364127f18d917d2fe2e8c8f2a1af9f6ae";
     src = fetchgit {
-      url = "https://github.com/einzigartigerName/spicetify-history";
+      url = "https://github.com/nelsongillo/spicetify-history";
       rev = "577e34f364127f18d917d2fe2e8c8f2a1af9f6ae";
       fetchSubmodules = false;
       deepClone = false;
@@ -374,7 +374,7 @@
     pname = "spicetifyStatsSrc";
     version = "0a82d88e5517f21595c641c60015671dacb1d7fe";
     src = fetchgit {
-      url = "https://github.com/harbassan/spicetify-stats";
+      url = "https://github.com/harbassan/spicetify-apps";
       rev = "0a82d88e5517f21595c641c60015671dacb1d7fe";
       fetchSubmodules = false;
       deepClone = false;
