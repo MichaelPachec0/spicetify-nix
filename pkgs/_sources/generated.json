@@ -599,26 +599,6 @@
         },
         "version": "8624f539549973c124ed18753881045968881745"
     },
-    "startPageSrc": {
-        "cargoLock": null,
-        "date": "2026-04-17",
-        "extract": null,
-        "name": "startPageSrc",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "fb94b32511b74f791ddeb025aec0c77928d6bd60",
-            "sha256": "sha256-SLu2+H5tdwPz0JrT61SuAx9uSW7Wfv2wLoA7d/AwmZQ=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Resxt/startup-page"
-        },
-        "version": "fb94b32511b74f791ddeb025aec0c77928d6bd60"
-    },
     "tetraxSrc": {
         "cargoLock": null,
         "date": "2025-05-31",

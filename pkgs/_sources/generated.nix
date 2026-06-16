@@ -220,7 +220,7 @@
     pname = "lastfmSrc";
     version = "2726552af6d617f8010306e352e1ad17ff3bfeea";
     src = fetchgit {
-      url = "https://github.com/LucasBares/spicetify-last-fm";
+      url = "https://github.com/Taeko-ar/spicetify-last-fm";
       rev = "2726552af6d617f8010306e352e1ad17ff3bfeea";
       fetchSubmodules = false;
       deepClone = false;
@@ -248,7 +248,7 @@
     pname = "marketplaceSrc";
     version = "a9a01ef4320593a21a85c7aae74b8b898b35da6a";
     src = fetchgit {
-      url = "https://github.com/spicetify/spicetify-marketplace";
+      url = "https://github.com/spicetify/marketplace";
       rev = "a9a01ef4320593a21a85c7aae74b8b898b35da6a";
       fetchSubmodules = false;
       deepClone = false;
@@ -425,20 +425,6 @@
       sha256 = "sha256-AsXqcoqUXUFxTG+G+31lm45gjP6qGohEnUSUtKypew0=";
     };
     date = "2022-10-25";
-  };
-  startPageSrc = {
-    pname = "startPageSrc";
-    version = "fb94b32511b74f791ddeb025aec0c77928d6bd60";
-    src = fetchgit {
-      url = "https://github.com/Resxt/startup-page";
-      rev = "fb94b32511b74f791ddeb025aec0c77928d6bd60";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-SLu2+H5tdwPz0JrT61SuAx9uSW7Wfv2wLoA7d/AwmZQ=";
-    };
-    date = "2026-04-17";
   };
   tetraxSrc = {
     pname = "tetraxSrc";
