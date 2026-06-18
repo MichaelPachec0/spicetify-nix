@@ -89,6 +89,12 @@ in {
     injectCss = mkOption {
       type = lib.types.nullOr lib.types.bool;
       default = null;
+      description = "Override inject_css. When null, inferred from the theme's user.css.";
+    };
+    injectThemeJs = mkOption {
+      type = lib.types.nullOr lib.types.bool;
+      default = null;
+      description = "Override inject_theme_js. When null, inferred from the theme's theme.js.";
     };
     replaceColors = mkOption {
       type = lib.types.nullOr lib.types.bool;
