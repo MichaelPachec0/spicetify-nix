@@ -10,8 +10,6 @@ with source; let
       inherit name;
       src = "${catppuccinSrc}/catppuccin";
       appendName = false;
-      injectCss = true;
-      replaceColors = true;
       overwriteAssets = true;
       sidebarConfig = false;
     };
@@ -34,9 +32,7 @@ with source; let
     name = "Fluent";
     src = fluentSrc;
     appendName = false;
-    injectCss = true;
     overwriteAssets = true;
-    replaceColors = true;
     sidebarConfig = false;
     patches = {
       "xpui.js_find_8008" = ",(\\w+=)32";
@@ -54,8 +50,6 @@ with source; let
     name = "DefaultDynamic";
     src = defaultDynamicSrc;
     appendName = false;
-    injectCss = true;
-    replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
     requiredExtensions = [
@@ -78,8 +72,6 @@ with source; let
     name = "RetroBlur";
     src = retroBlurSrc;
     appendName = false;
-    injectCss = true;
-    replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
   };
@@ -89,9 +81,7 @@ with source; let
     name = "Omni";
     src = omniSrc;
     appendName = false;
-    injectCss = true;
     overwriteAssets = true;
-    replaceColors = true;
     sidebarConfig = false;
     requiredExtensions = [
       {
@@ -106,8 +96,6 @@ with source; let
     name = "Bloom";
     src = bloomSrc;
     appendName = false;
-    injectCss = true;
-    replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
     patches = {
@@ -126,7 +114,6 @@ with source; let
     name = "Dracula";
     src = draculaSrc;
     appendName = true;
-    replaceColors = true;
     injectCss = false;
     overwriteAssets = false;
     sidebarConfig = false;
@@ -136,8 +123,6 @@ with source; let
     name = "Nord";
     src = nordSrc;
     appendName = true;
-    injectCss = true;
-    replaceColors = true;
     overwriteAssets = false;
     sidebarConfig = false;
   };
@@ -146,8 +131,6 @@ with source; let
     name = "Comfy";
     src = comfySrc;
     appendName = true;
-    injectCss = true;
-    replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
     requiredExtensions = [
@@ -172,9 +155,7 @@ with source; let
     name = "SpotifyCanvas";
     src = "${spotifyCanvasSrc}/Themes/canvas";
     appendName = false;
-    injectCss = true;
     overwriteAssets = false;
-    replaceColors = false;
     sidebarConfig = false;
 
     requiredExtensions = [
@@ -188,8 +169,6 @@ with source; let
     name = "Catppuccin";
     src = "${catppuccinSrc}/catppuccin";
     appendName = false;
-    injectCss = true;
-    replaceColors = true;
     overwriteAssets = true;
     sidebarConfig = false;
   };
@@ -210,8 +189,6 @@ in
           name = themeName;
           src = officialThemes;
           appendName = true;
-          injectCss = true;
-          replaceColors = true;
           overwriteAssets = false;
           sidebarConfig = false;
         };
@@ -226,8 +203,6 @@ in
             "xpui.js_find_8008" = ",(\\w+=)32";
             "xpui.js_repl_8008" = ",$\{1}56";
           };
-          injectCss = true;
-          replaceColors = true;
           overwriteAssets = true;
           appendName = true;
           sidebarConfig = true;
@@ -244,8 +219,6 @@ in
             "xpui.js_find_8008" = ",(\\w+=)56";
             "xpui.js_repl_8008" = ",$\{1}32";
           };
-          injectCss = true;
-          replaceColors = true;
           overwriteAssets = true;
           appendName = true;
           sidebarConfig = true;
@@ -265,8 +238,6 @@ in
           src = officialThemes;
           sidebarConfig = true;
           appendName = true;
-          injectCss = true;
-          replaceColors = true;
           overwriteAssets = true;
         };
         Turntable = {
