@@ -42,10 +42,6 @@ fetch.git = "https://github.com/getomni/spicetify"
 src.git = "https://github.com/nimsandu/spicetify-bloom"
 fetch.git = "https://github.com/nimsandu/spicetify-bloom"
 
-[draculaSrc]
-src.git = "https://github.com/clementwzk/Dracula-Spicetify"
-fetch.git = "https://github.com/clementwzk/Dracula-Spicetify"
-
 [nordSrc]
 src.git = "https://github.com/Tetrax-10/Nord-Spotify"
 src.branch = "dist"
@@ -132,4 +128,3 @@ fetch.git = "https://github.com/Pithaya/spicetify-apps-dist"
 src.git = "https://github.com/harbassan/spicetify-apps"
 src.branch = "dist"
 fetch.git = "https://github.com/harbassan/spicetify-apps"
-
