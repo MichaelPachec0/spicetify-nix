@@ -110,15 +110,6 @@ with source; let
     ];
   };
 
-  Dracula = {
-    name = "Dracula";
-    src = draculaSrc;
-    appendName = true;
-    injectCss = false;
-    overwriteAssets = false;
-    sidebarConfig = false;
-  };
-
   Nord = {
     name = "Nord";
     src = nordSrc;
