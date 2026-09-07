@@ -254,7 +254,6 @@ in
       RetroBlur
       Omni
       Bloom
-      Dracula
       Nord
       SpotifyCanvas
       Comfy
