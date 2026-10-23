@@ -106,17 +106,17 @@
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
-    version = "1e73f31b2c578e1e35315d80ced48cf3f24cc374";
+    version = "ddb562bc495b6d2b63e8ec4bdd0aa66f55b179ef";
     src = fetchgit {
       url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-      rev = "1e73f31b2c578e1e35315d80ced48cf3f24cc374";
+      rev = "ddb562bc495b6d2b63e8ec4bdd0aa66f55b179ef";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-3dl5JbtIm1rFZuG8xwrnpkAZeG+TK7w2ULzt3LjuaGw=";
+      sha256 = "sha256-JF0/zlXPqx7Y0A8dqH+st3wNNKd2AkCbFxqokV707KU=";
     };
-    date = "2026-10-21";
+    date = "2026-10-23";
   };
   eternalJukeboxSrc = {
     pname = "eternalJukeboxSrc";
