@@ -141,7 +141,7 @@
     },
     "defaultDynamicSrc": {
         "cargoLock": null,
-        "date": "2026-10-23",
+        "date": "2026-10-30",
         "extract": null,
         "name": "defaultDynamicSrc",
         "passthru": null,
@@ -151,13 +151,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ddb562bc495b6d2b63e8ec4bdd0aa66f55b179ef",
-            "sha256": "sha256-JF0/zlXPqx7Y0A8dqH+st3wNNKd2AkCbFxqokV707KU=",
+            "rev": "32676a2fcaa623241843c413eda393314fa1edff",
+            "sha256": "sha256-uwHiwkoDxJ1copbLuRUfZyI57vnBA/r4IyCkCr3NcOM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/JulienMaille/spicetify-dynamic-theme"
         },
-        "version": "ddb562bc495b6d2b63e8ec4bdd0aa66f55b179ef"
+        "version": "32676a2fcaa623241843c413eda393314fa1edff"
     },
     "eternalJukeboxSrc": {
         "cargoLock": null,
