@@ -391,13 +391,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "685ff42015694eb063ea7a22d347e2ad0d58e08b",
-            "sha256": "sha256-TG0ihilemW5IbncbpSzmml0a7VWzRYtCNWt16oP5iUA=",
+            "rev": "e09797ff6358aa5a9cb65829438be32d559d215c",
+            "sha256": "sha256-Y8FKMFWHls1DIZeCpWlsMHi/HFtYhZpdEVyJsq+K8VA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/spicetify/cli"
         },
-        "version": "685ff42015694eb063ea7a22d347e2ad0d58e08b"
+        "version": "e09797ff6358aa5a9cb65829438be32d559d215c"
     },
     "officialThemes": {
         "cargoLock": null,
